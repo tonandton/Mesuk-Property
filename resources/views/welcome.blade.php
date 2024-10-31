@@ -31,12 +31,27 @@
                 <div class="hidden md:flex flex-grow justify-end">
                     <nav>
                         <ul
-                            class="flex flex-col md:flex-row lg-space-x-8 sm:space-x-4 space-y-2 md:space-y-0 p-4 md:p-0">
-                            <li>หน้าแรก</li>
-                            <li>เกี่ยวกับ</li>
-                            <li>รายการสินค้า</li>
-                            <li>ติดต่อ</li>
-                            <li>เข้าสู่ระบบ</li>
+                            class="flex flex-col md:flex-row sm:space-x-8 space-y-2 md:space-y-0 p-4 md:p-0 lg:space-x-16">
+                            <li>
+                                <a href="">
+                                    หน้าแรก
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    เกี่ยวกับ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    รายการสินค้า
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    เข้าสู่ระบบ
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
