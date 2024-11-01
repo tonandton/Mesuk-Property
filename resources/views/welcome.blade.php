@@ -21,53 +21,44 @@
 </head>
 
 <body>
-    <div class="overflow-x-hidden">
-        <header class="bg-white text-black py-6 px-4 fixed top-0 left-0 right-0 z-10">
-            <div class="container mx-auto flex justify-between items-center h-full">
-                <div>
-                    <a href="/">Happy | Mesuk</a>
-                </div>
+    <main>
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <img src="https://bigbuckclub.com/wp-content/uploads/2018/05/logo-dummy-4.png" alt="">
+                    </div>
 
-                <div class="hidden md:flex flex-grow justify-end">
-                    <nav>
-                        <ul
-                            class="flex flex-col md:flex-row sm:space-x-8 space-y-2 md:space-y-0 p-4 md:p-0 lg:space-x-16">
-                            <li>
-                                <a href="">
-                                    หน้าแรก
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    เกี่ยวกับ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    รายการสินค้า
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    เข้าสู่ระบบ
-                                </a>
-                            </li>
+                    <div class="links">
+                        <ul>
+                            <li><a href="/">หน้าแรก</a></li>
+                            <li><a href="/">เกี่ยวกับ</a></li>
+                            <li><a href="/">รายการสินค้า</a></li>
+                            <li><a href="/">เข้าสู่ระบบ</a></li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
+            </nav>
 
-                {{-- <div class="hidden md:block">
-                    <a href="" class="text-white bg-green-500 hover:bg-green-500/90 px-4 py-2 rounded">
-                        ติดต่อ
-                    </a>
-                </div> --}}
-
-                <div class="block md:hidden">
-                    <button class="text-black focus:outline-none"></button>
+            <div class="header-content">
+                <div class="container grid-2">
+                    <div class="column-1">
+                        <h1 class="header-title">บริษัท มีสุข คอร์ปอเรชั่น (2006) จำกัด</h1>
+                        <p class="text">
+                            รับสร้างโรงงานโกดังระบบสำเร็จรูปอันดับหนึ่งของเมืองไทย
+                            ให้บริการครบวงจรพร้อมการควบคุมมาตราฐานการก่อสร้างด้วยวิศวกรมืออาชีพ
+                        </p>
+                        <a href="/" class="btn">อ่านต่อ</a>
+                    </div>
+                    <div class="column-2 image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatJoRrPwbVSvw5r6sHdLG-Gmw45GXhoe6HA&s"
+                            alt="" class="img-element" alt="">
+                    </div>
                 </div>
             </div>
         </header>
-    </div>
+    </main>
+
 </body>
 
 </html>
