@@ -202,7 +202,7 @@
                     {{-- image --}}
                     <div class="w-full lg:w-1/2">
                         <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto">
+                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
                     </div>
                     {{-- content --}}
                     <div class="w-full lg:w-1/2">
@@ -224,7 +224,7 @@
                     {{-- image --}}
                     <div class="w-full lg:w-1/2">
                         <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto">
+                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
                     </div>
                     {{-- content --}}
                     <div class="w-full lg:w-1/2">
@@ -245,7 +245,7 @@
                     {{-- image --}}
                     <div class="w-full lg:w-1/2">
                         <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto">
+                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
                     </div>
                     {{-- content --}}
                     <div class="w-full lg:w-1/2">
@@ -283,18 +283,10 @@
 
                     <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
-                        class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+                        class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500 rounded-md">
 
-                    <p>Happy Warehouse</p>
-                    <h3>Mesuk Location</h3>
-
-                    <div class="text-green-500 text-xs py-3">
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-half-fill"></i>
-                        <i class="ri-star-line text-gray-400"></i>
-                        <i class="ri-star-line text-gray-400"></i>
-                    </div>
+                    <h3>เครื่องตัดเหล็ก 32 มม. (GQ40A) 3 Phase</h3>
+                    <p>HTเครื่องตัดเหล็ก</p>
 
                     <div class="flex items center justify-between">
                         <p class="text-xl">5 / บาท</p>
@@ -305,14 +297,27 @@
                     </div>
                 </div>
                 {{-- card 2 --}}
-                <div class="popular__card bg-emerald-400 p-10 pt-24 rounded-md relative">
+                <div
+                    class="popular__card relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
 
-                    <img src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt=""
-                        class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+                    <a href="" class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" class="">
+                    </a>
 
-                    <p>Happy Warehouse</p>
-                    <h3>Mesuk Location</h3>
+                    <div class="mt-4 px-5 pb-5">
+                        <a href="">
+                            <p>HTเครื่องผสมปูน,รถเข็นปูน</p>
+                            <h5 class="text-xl tracking-tight text-slate-900">เครื่องพ่นปูนฉาบ SP10W Wet Process</h5>
+                        </a>
+                    </div>
+
+                    <div class="mt-2 mb-5 flex items-center justify-between">
+                        <p>
+                            <span class="text-3xl font-bold text-slate-900">฿10 / ชิ้น</span>
+                        </p>
+                    </div>
+
 
                     <div class="text-green-500 text-xs py-3">
                         <i class="ri-star-fill"></i>
@@ -331,7 +336,7 @@
                     </div>
                 </div>
                 {{-- card 3 --}}
-                <div class="popular__card bg-emerald-400 p-10 pt-24 rounded-md relative">
+                {{-- <div class="popular__card bg-emerald-400 p-10 pt-24 rounded-md relative">
 
                     <img src="https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
@@ -355,10 +360,10 @@
                             <i class="ri-shopping-cart-fill"></i>
                         </button>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- card 4 --}}
-                <div class="popular__card bg-emerald-400 p-10 pt-24 rounded-md relative">
+                {{-- <div class="popular__card bg-emerald-400 p-10 pt-24 rounded-md relative">
 
                     <img src="https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
@@ -382,7 +387,7 @@
                             <i class="ri-shopping-cart-fill"></i>
                         </button>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </section>
 
