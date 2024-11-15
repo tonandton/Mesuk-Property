@@ -7,10 +7,10 @@ export default {
     ],
     theme: {
         screens: {
-            sm: "340px",
-            md: "540px",
-            lg: "768px",
-            xl: "1180px",
+            sm: "540px",
+            md: "840px",
+            lg: "980px",
+            xl: "1670px",
         },
         extend: {},
         keyframes: {

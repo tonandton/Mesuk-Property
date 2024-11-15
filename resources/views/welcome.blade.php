@@ -125,17 +125,15 @@
             <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 -mt-40 ">
                 {{-- card 1 --}}
                 <div
-                    class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5 ">
-                    <div class="flex items-center gap-5">
-                        <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
-                        <p>Fast <br> Delivery</p>
-                    </div>
-                    <p class="md:text-lg font-bold">Lorem i 111 </p>
+                    class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                    <img class="rounded-md"
+                        src="https://www.happyfranchise.co.th/store/resources/img/category/1hq_catess_20241005125714.jpeg"
+                        alt="">
                 </div>
                 {{-- card 2 --}}
                 <div
-                    class="border border-green-900 p-5  cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5 ">
-                    <div class="flex items-center gap-5">
+                    class=" border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                    <div clsss="flex items-center gap-5">
                         <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
                         <p>Fast <br> Delivery</p>
                     </div>
@@ -143,7 +141,7 @@
                 </div>
                 {{-- card 3 --}}
                 <div
-                    class="border border-green-900 p-5  cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5 ">
+                    class="border  cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
                     <div class="flex items-center gap-5">
                         <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
                         <p>Fast <br> Delivery</p>
@@ -152,7 +150,7 @@
                 </div>
                 {{-- card 4 --}}
                 <div
-                    class="border border-green-900 p-5  cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5 ">
+                    class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
                     <div class="flex items-center gap-5">
                         <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
                         <p>Fast <br> Delivery</p>
@@ -161,7 +159,7 @@
                 </div>
                 {{-- card 5 --}}
                 <div
-                    class="bordercursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                    class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
                     <div class="flex items-center gap-5">
                         {{-- <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
                     <p>Fast <br> Delivery</p> --}}
@@ -270,16 +268,16 @@
             <h2 class="title">You Choice Warehouse</h2>
             <p class="max-w-2xl">Follow instruction for more</p>
         </div> --}}
-            <div class="flex flex-col items-center gap-3 text-center mb-40">
-                <h2 class="title">จุดเด่นของระบบสำเร็จรูป PEB</h2>
-                <h2 class="title">มาตราฐาน Mesuk</h2>
+            <div class="flex flex-col items-center gap-3 text-center mb-10">
+                <h2 class="title">สินค้าแนะนำ</h2>
+                {{-- <h2 class="title">มาตราฐาน Mesuk</h2> --}}
                 {{-- <p class="max-w-2xl">มาตราฐาน Mesuk</p> --}}
             </div>
 
             <div
-                class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                class="container w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-25">
                 {{-- card 1 --}}
-                <div class="popular__card bg-emerald-400 p-10 pt-24 rounded-md relative">
+                {{-- <div class="popular__card bg-emerald-400 p-10 pt-24 rounded-md relative">
 
                     <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
@@ -295,46 +293,117 @@
                             <i class="ri-shopping-cart-fill"></i>
                         </button>
                     </div>
-                </div>
+                </div> --}}
                 {{-- card 2 --}}
                 <div
-                    class="popular__card relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+                    class="popular__card relative flex w-full  flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md mt-5 hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
 
                     <a href="" class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl">
                         <img src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="">
+                            alt="" class="object-cover w-full">
                     </a>
 
                     <div class="mt-4 px-5 pb-5">
                         <a href="">
-                            <p>HTเครื่องผสมปูน,รถเข็นปูน</p>
-                            <h5 class="text-xl tracking-tight text-slate-900">เครื่องพ่นปูนฉาบ SP10W Wet Process</h5>
+                            <p class="text-sm text-slate-500">HTเครื่องผสมปูน,รถเข็นปูน</p>
+                            <h4 class="text-lg tracking-tight text-slate-900">เครื่องพ่นปูนฉาบ SP10W Wet Process</h4>
                         </a>
-                    </div>
 
-                    <div class="mt-2 mb-5 flex items-center justify-between">
-                        <p>
-                            <span class="text-3xl font-bold text-slate-900">฿10 / ชิ้น</span>
-                        </p>
-                    </div>
-
-
-                    <div class="text-green-500 text-xs py-3">
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-half-fill"></i>
-                        <i class="ri-star-line text-gray-400"></i>
-                        <i class="ri-star-line text-gray-400"></i>
-                    </div>
-
-                    <div class="flex items center justify-between">
-                        <p class="text-xl">5 / บาท</p>
-
-                        <button class="bg-white px-2 py-1 rounded-sm text-xl">
-                            <i class="ri-shopping-cart-fill"></i>
-                        </button>
+                        <div class="mt-2 mb-2 flex items-center">
+                            <p>
+                                <span class="text-3xl font-bold text-slate-900">฿10 / ชิ้น</span>
+                            </p>
+                        </div>
+                        <div class="mt-2 mb-5 flex items-center">
+                            <p>
+                                <span class="text-sm text-slate-900 line-though">T70-001-039-D5</span>
+                        </div>
+                        <a href=""
+                            class="flex items-center justify-center rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300">ซื้อสินค้า</a>
                     </div>
                 </div>
+                <div
+                    class="popular__card relative flex w-full  flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md mt-5 hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+
+                    <a href="" class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" class="object-cover w-full w-full">
+                    </a>
+
+                    <div class="mt-4 px-5 pb-5">
+                        <a href="">
+                            <p class="text-sm text-slate-500">HTเครื่องผสมปูน,รถเข็นปูน</p>
+                            <h4 class="text-lg tracking-tight text-slate-900">เครื่องพ่นปูนฉาบ SP10W Wet Process</h4>
+                        </a>
+
+                        <div class="mt-2 mb-2 flex items-center">
+                            <p>
+                                <span class="text-3xl font-bold text-slate-900">฿10 / ชิ้น</span>
+                            </p>
+                        </div>
+                        <div class="mt-2 mb-5 flex items-center">
+                            <p>
+                                <span class="text-sm text-slate-900 line-though">T70-001-039-D5</span>
+                        </div>
+                        <a href=""
+                            class="flex items-center justify-center rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300">ซื้อสินค้า</a>
+                    </div>
+                </div>
+                <div
+                    class="popular__card relative flex w-full  flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md mt-5 hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+
+                    <a href="" class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" class="object-cover w-full">
+                    </a>
+
+                    <div class="mt-4 px-5 pb-5">
+                        <a href="">
+                            <p class="text-sm text-slate-500">HTเครื่องผสมปูน,รถเข็นปูน</p>
+                            <h4 class="text-lg tracking-tight text-slate-900">เครื่องพ่นปูนฉาบ SP10W Wet Process</h4>
+                        </a>
+
+                        <div class="mt-2 mb-2 flex items-center">
+                            <p>
+                                <span class="text-3xl font-bold text-slate-900">฿10 / ชิ้น</span>
+                            </p>
+                        </div>
+                        <div class="mt-2 mb-5 flex items-center">
+                            <p>
+                                <span class="text-sm text-slate-900 line-though">T70-001-039-D5</span>
+                        </div>
+                        <a href=""
+                            class="flex items-center justify-center rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300">ซื้อสินค้า</a>
+                    </div>
+                </div>
+                <div
+                    class="popular__card relative flex w-full  flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md mt-5 hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+
+                    <a href="" class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl">
+                        <img src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" class="object-cover w-full">
+                    </a>
+
+                    <div class="mt-4 px-5 pb-5">
+                        <a href="">
+                            <p class="text-sm text-slate-500">HTเครื่องผสมปูน,รถเข็นปูน</p>
+                            <h4 class="text-lg tracking-tight text-slate-900">เครื่องพ่นปูนฉาบ SP10W Wet Process</h4>
+                        </a>
+
+                        <div class="mt-2 mb-2 flex items-center">
+                            <p>
+                                <span class="text-3xl font-bold text-slate-900">฿10 / ชิ้น</span>
+                            </p>
+                        </div>
+                        <div class="mt-2 mb-5 flex items-center">
+                            <p>
+                                <span class="text-sm text-slate-900 line-though">T70-001-039-D5</span>
+                        </div>
+                        <a href=""
+                            class="flex items-center justify-center rounded-md bg-slate-900 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300">ซื้อสินค้า</a>
+                    </div>
+                </div>
+
                 {{-- card 3 --}}
                 {{-- <div class="popular__card bg-emerald-400 p-10 pt-24 rounded-md relative">
 
