@@ -53,3 +53,9 @@ h3 {
 .popular__card:hover img {
     @apply -top-8;
 }
+
+.wrapper {
+    display: grid;
+    height: 50vh;
+    place-items: center;
+}

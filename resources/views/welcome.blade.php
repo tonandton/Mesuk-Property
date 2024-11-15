@@ -205,14 +205,13 @@
                     {{-- content --}}
                     <div class="w-full lg:w-1/2">
                         <div class="space-y-5">
-                            <h3>Make Make <span class="text-green-500">Save Time</span>
-                                <br> PEB
+                            <h3><span class="text-green-500">มีมาตราฐาน</span>
+                                <br>
                             </h3>
-                            <p class="text-slate-600 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
-                                repellendus ea optio
-                                necessitatibus sapiente perferendis molestias unde dolor molestiae similique obcaecati
-                                sit,
-                                autem et ad commodi labore maiores consequatur aliquam!</p>
+                            <p class="text-slate-600 ">ระบบสำเร็จรูป PEB (Pre Engineering Build)
+                                เป็นโครงสร้างเหล็กสำเร็จรูป เป็นระบบการก่อสร้างอาคารแบบ น็อคดาวน์โดยจะผลิตชิ้นส่วนจาก
+                                โรงงานโดยที่โครงสร้างทุกชิ้นส่วน จะถูกออกแบบอย่างถูกต้องตามหลัก
+                                วิศวกรรมชิ้นส่วนโครงสร้าง จะถูกนำมาประกอบที่หน้างาน</p>
                         </div>
                     </div>
                 </div>
@@ -460,10 +459,10 @@
             </div>
         </section>
 
-        {{-- Review --}}
+        {{-- หมวด --}}
         <section class="review">
             <div class="flex flex-col items-center gap-3 text-center mb-10 ">
-                <h2 class="title">Customer Review</h2>
+                <h2 class="title">หมวดสินค้า</h2>
                 <p class="max-w-2xl"></p>
             </div>
 
@@ -542,6 +541,80 @@
                 </div>
             </div>
         </section>
+
+
+        <section class="review">
+            <div class="flex flex-col items-center gap-3 text-center mb-10 ">
+                <h2 class="title">หมวดสินค้า</h2>
+                <p class="max-w-2xl"></p>
+            </div>
+
+            <div class="container">
+                <div class="swiper py-12">
+                    <div class="swiper-wrapper mb-10">
+                        <div class="swiper-slide">
+                            <div class="flex flex-col gap-5 rounded-md p-6">
+
+                                <img src="https://img2.pic.in.th/pic/e2201bf0-05b7-4b05-89a4-3bd92dea5b16.jpeg"
+                                    alt="e2201bf0 05b7 4b05 89a4 3bd92dea5b16" border="0" class="rounded-lg`">
+
+                                <div class="relative px-4 -mt-24">
+                                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                                        {{-- <span
+                                            class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">HW</span> --}}
+                                        <h3 class="mb-2 text-slate-700">HW - Happy Warehouse</h3>
+                                        <p class="text-slate-600 mb-5">โครงสร้างโกดังสำเร็จรูปแบบถอดประกอบหน้างาน
+                                            สำหรับผู้ที่สนใจที่จะสร้างโกดังมีหลายรูปแบบ และหลายขนาดไม่ว่าจะเป็น เล็ก
+                                            กลลาง ใหญ่</p>
+                                        <a href=""
+                                            class="items-center rounded-md bg-emerald-400 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-400 focus:outline-none focus:ring-4 ">อ่านต่อ
+                                            -></a>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col gap-5 rounded-md p-6">
+
+
+                                <img src="https://img5.pic.in.th/file/secure-sv1/9dc2b4c3-4c7e-4995-8fbf-dee36e9c1e72.jpeg"
+                                    alt="9dc2b4c3 4c7e 4995 8fbf dee36e9c1e72" border="0" class="rounded-lg">
+
+                                <div class="relative px-4 -mt-24">
+                                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                                        {{-- <span
+                                            class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">HW</span> --}}
+                                        <h3 class="mb-2 text-slate-700">HR - Happy Realestate</h3>
+                                        <p class="text-slate-600">อสังหาริมทรัพย์โกดังสำเร็จรูปให้เช่าทั่วกรุงเทพมหานคร
+                                            ปริมณฑล และจังหวัดใกล้เคียง โกดังเหมาะสำหรับเอาไว้เก็บสินค้าต่างๆ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col gap-5 rounded-md p-6">
+                                <img src="https://img5.pic.in.th/file/secure-sv1/aa6fc013-1b93-4811-9ec9-20e8ba608e7c.jpeg"
+                                    alt="" class="rounded-lg">
+
+                                <div class="relative px-4 -mt-24">
+                                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                                        {{-- <span
+                                            class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">HW</span> --}}
+                                        <h3 class="mb-2 text-slate-700">HP - Happy Precast</h3>
+                                        <p class="text-slate-600">งานคอนกรีต สำหรับงานก่อสร้าง งานโครงสร้าง ฐานราก
+                                            เสาตอม่อ คานคอดิน งานพื้น งานรั้ว</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"> </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     {{-- Icon Social --}}
