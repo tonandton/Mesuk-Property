@@ -73,9 +73,9 @@
                             </span>
 
                         </h1>
-                        <p class="text-slate-900 text-xl">
-                            รับสร้างโรงงาน โกดังระบบสำเร็จรูปอันดับหนึ่งของเมืองไทย
-                            ให้บริการครบวงจรพร้อมการควบคุมมาตราฐานการก่อสร้างด้วยวิศวกรมืออาชีพ
+                        <p class="text-slate-900 text-3xl">
+                            รับสร้างโรงงาน โกดังระบบสำเร็จรูปอันดับหนึ่งของเมืองไทย <br />
+                            ให้บริการครบวงจรพร้อมการควบคุมมาตราฐานการก่อสร้าง<br />ด้วยวิศวกรมืออาชีพ
                         </p>
 
                         <div class="flex flex-col gap-2 sm:flex-row">
@@ -106,8 +106,8 @@
 
         </section>
 
-        {{-- Services --}}
-        <div class="bg-white text-green-900 py-20 mt-16">
+        {{-- ประเภทสินค้า --}}
+        <div class="bg-white text-green-900 py-20 mt-16 -mb-20">
             <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 -mt-40 ">
                 {{-- card 1 --}}
                 <div
@@ -119,29 +119,23 @@
                 {{-- card 2 --}}
                 <div
                     class=" border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <div clsss="flex items-center gap-5">
-                        <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
-                        <p>Fast <br> Delivery</p>
-                    </div>
-                    <p class="md:text-lg font-bold">Lorem i 111 </p>
+                    <img class="rounded-md w-full"
+                        src="https://img2.pic.in.th/pic/2f9f4bd0-2e1b-48d4-82ef-517fd18077cb.jpeg"
+                        alt="%DISPLAY_TITLE%">
                 </div>
                 {{-- card 3 --}}
                 <div
                     class="border  cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <div class="flex items-center gap-5">
-                        <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
-                        <p>Fast <br> Delivery</p>
-                    </div>
-                    <p class="md:text-lg font-bold">Lorem i 111 </p>
+                    <img class="rounded-md w-full"
+                        src="https://img2.pic.in.th/pic/0134891e-2048-4de7-a32b-e3e1f853bc14.jpeg"
+                        alt="%DISPLAY_TITLE%">
                 </div>
                 {{-- card 4 --}}
                 <div
                     class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <div class="flex items-center gap-5">
-                        <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
-                        <p>Fast <br> Delivery</p>
-                    </div>
-                    <p class="md:text-lg font-bold">Lorem i 111 </p>
+                    <img class="rounded-md w-full"
+                        src="https://img5.pic.in.th/file/secure-sv1/aa6fc013-1b93-4811-9ec9-20e8ba608e7c.jpeg"
+                        alt="%DISPLAY_TITLE%" border="0">
                 </div>
                 {{-- card 5 --}}
                 <div
@@ -160,7 +154,7 @@
         </div>
 
         {{-- หมวดสินค้า --}}
-        <section class="review">
+        <section class="review -mt-50 -mb-35">
             <div class="flex flex-col items-center gap-3 text-center mb-10">
                 <h2 class="title">หมวดสินค้า</h2>
                 <p class="max-w-2xl"></p>
@@ -238,8 +232,8 @@
             </div>
         </section>
 
-        {{-- About --}}
-        <section id="about" class="relative overflow-hidden">
+        {{-- เกี่ยวกับจุดเด่น --}}
+        <section id="about" class="relative overflow-hidden -mt-40 -mb-35">
 
             <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
                 <h2 class="title">จุดเด่นของระบบสำเร็จรูป PEB</h2>
@@ -314,10 +308,10 @@
             </div>
         </section>
 
-        {{-- Popular --}}
-        <section id="popular">
+        {{-- สินแนะนำ --}}
+        <section id="popular" class="-mt-50 -mb-35">
 
-            <div class="flex flex-col items-center gap-3 text-center mb-10">
+            <div class="flex flex-col items-center gap-3 text-center -mt-20 mb-10">
                 <h2 class="title">สินค้าแนะนำ</h2>
             </div>
             {{--
@@ -356,7 +350,7 @@
 
             <div class="container">
                 <div class="swiper py-12">
-                    <div class="swiper-wrapper mb-10">
+                    <div class="swiper-wrapper mb-20">
                         <div class="swiper-slide">
                             <div
                                 class="popular__card relative flex w-full  flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md mt-5 hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
@@ -553,12 +547,39 @@
 
     </main>
 
-    {{-- Icon Social --}}
-    <div class="flex items-center gap-5 text-lg lg:pt-10">
-        <i class="ri-facebook-fill text-blue-500 hover:text-blue-600/80 duration-300 cursor-pointer"></i>
-        <i class="ri-line-fill text-green-500 hover:text-green-600/80 duration-300 cursor-pointer"></i>
-        <i class="ri-youtube-line text-red-600 hover:text-red-500/80 duration-300 cursor-pointer"></i>
-    </div>
+    {{-- Footer --}}
+    <footer class="bg-green-100 text-green-900 pt-20 pb-10 md:pt-28 relative mt-20">
+        <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2">
+            <div class="bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-md">
+                <h3><span class="text-green-500">subscribe</span>to our newsletter</h3>
+                <div class="flex flex-col md:flex-row gap-1">
+                    <input type="eamil" placeholder="Your email address"
+                        class="w-full px-5 py-3 text-green-900 rounded-md outline-none mb-2">
+                    <button
+                        class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
+                        <span>subscribe</span>
+                        <i class="ri-send-plane-2-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        {{-- Icon Social --}}
+        <div class="container mt-16 mb-10">
+            <div class="border-b border-green-500 relative">
+                <div
+                    class="absolute top-0 transform -translate-y-1/2
+                            left-0 right-0 max-w-36 mx-auto">
+                    <div class="bg-green-100 text-lg text-center space-x-2">
+                        <i
+                            class="ri-facebook-fill text-blue-500 hover:text-blue-600/80 duration-300 cursor-pointer"></i>
+                        <i class="ri-line-fill text-green-500 hover:text-green-600/80 duration-300 cursor-pointer"></i>
+                        <i class="ri-youtube-line text-red-600 hover:text-red-500/80 duration-300 cursor-pointer"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
