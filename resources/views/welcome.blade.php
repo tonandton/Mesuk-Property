@@ -550,13 +550,13 @@
     {{-- Footer --}}
     <footer class="bg-green-100 text-green-900 pt-20 pb-10 md:pt-28 relative mt-20">
         <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2">
-            <div class="bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-md">
-                <h3><span class="text-green-500">subscribe</span>to our newsletter</h3>
+            <div class="bg-emerald-500 px-10 pt-5 pb-10 space-y-5 rounded-md">
+                <h3><span class="text-green-700">subscribe</span>to our newsletter</h3>
                 <div class="flex flex-col md:flex-row gap-1">
                     <input type="eamil" placeholder="Your email address"
                         class="w-full px-5 py-3 text-green-900 rounded-md outline-none mb-2">
                     <button
-                        class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
+                        class="flex h-full items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
                         <span>subscribe</span>
                         <i class="ri-send-plane-2-fill"></i>
                     </button>
@@ -570,13 +570,33 @@
                 <div
                     class="absolute top-0 transform -translate-y-1/2
                             left-0 right-0 max-w-36 mx-auto">
-                    <div class="bg-green-100 text-lg text-center space-x-2">
+                    <div class="bg-green-100 text-xl text-center space-x-2">
                         <i
                             class="ri-facebook-fill text-blue-500 hover:text-blue-600/80 duration-300 cursor-pointer"></i>
                         <i class="ri-line-fill text-green-500 hover:text-green-600/80 duration-300 cursor-pointer"></i>
                         <i class="ri-youtube-line text-red-600 hover:text-red-500/80 duration-300 cursor-pointer"></i>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        {{-- Contact --}}
+        <div>
+            <div>
+                <div>
+                    <i class="ri-leaf-fill">
+                        ssssssss
+                    </i>
+                </div>
+            </div>
+
+            <p></p>
+            <div>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
             </div>
         </div>
     </footer>
