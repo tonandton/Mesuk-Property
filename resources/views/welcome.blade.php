@@ -32,13 +32,13 @@
                 class="absolute top-0 left-[-100%] min-h-[80vh] w-full flex items-center bg-slate-100/90 justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
                 <ul class="flex flex-col items-center gap-8 lg:flex-row ">
                     <li>
-                        <a href="/" class="nav-link">หน้าแรก</a>
+                        <a href="#home" class="nav-link active">หน้าแรก</a>
                     </li>
                     <li>
                         <a href="/" class="nav-link">เกี่ยวกับ</a>
                     </li>
                     <li>
-                        <a href="/" class="nav-link">รายการสินค้า</a>
+                        <a href="#popular" class="nav-link">รายการสินค้า</a>
                     </li>
                     <li>
                         <a href="/" class="nav-link">เข้าสู่ระบบ</a>
@@ -581,26 +581,54 @@
         </div>
 
         {{-- Contact --}}
-        <div>
+        <div
+            class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 text-center md:text-start">
             <div>
-                <div>
-                    <i class="ri-leaf-fill">
-                        ssssssss
-                    </i>
+                <div class="text-7xl text-green-700 text-center inline-block">
+                    <i class="ri-leaf-fill"> </i>
+                    <p class="text-xl sm:text-md font-bold">มีสุข คอร์ปอเรชั่น (2006) จำกัด</p>
+                    <p class="text-xl sm:text-sm font-bold">MESUK CORPORATION (2006) Co.,Ltd</p>
+                    <p class="text-xl sm:text-sm">152/2 ซอยประชาอุทิศ 54 แยก 6 ถนนพุทธบูชา บางมด ทุ่งครุ กรุงเทพมหานคร
+                        10140 ประเทศไทย</p>
                 </div>
             </div>
 
-            <p></p>
             <div>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <p class="mb-5 font-bold text-xl">สินค้าบริการ</p>
+                <div class="flex flex-col gap-1">
+                    <a href="">item1</a>
+                    <a href="">item2</a>
+                    <a href="">item3</a>
+                    <a href="">item4</a>
+                    <a href="">item5</a>
+                </div>
             </div>
+
+            <div>
+                <p class="mb-5 font-bold text-xl">ติดต่อ</p>
+                <div class="flex flex-col gap-1">
+                    <a href="">024059717</a>
+                    <a href="">แจ้งปัญหา</a>
+                    <a href="">it@me-suk.com</a>
+                    <br>
+                    <p>152/2 ซอยประชาอุทิศ 54 แยก 6 ถนนพุทธบูชา บางมด ทุ่งครุ กรุงเทพมหานคร
+                        10140 ประเทศไทย</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container">
+            <p class="text-center mt-10 opacity-50">Copyright &copy; 2024 HappyMesuk. All Right reserved.</p>
         </div>
     </footer>
 
+
+    <a href="#"
+        class="fixed right-4 -bottom-1/2 bg-green-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg text-white z-50 hover:-translate-y-1 duration-300"
+        id="scroll-up">
+        <div class="ri-arrow-up-line"></div>
+    </a>
 
 
     {{-- JS --}}
