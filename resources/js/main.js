@@ -22,7 +22,7 @@ const scrollUp = () => {
     if (window.scrollY >= 250) {
         scrollUpBtn.classList.remove("-bottom-1/2");
         scrollUpBtn.classList.add("bottom-4");
-    } else if (window.screenY <= 240) {
+    } else {
         scrollUpBtn.classList.add("-bottom-1/2");
         scrollUpBtn.classList.remove("bottom-4");
     }
@@ -77,12 +77,12 @@ const activeLink = () => {
     sections.forEach((section) => {
         const sectionTop = section.offsetTop;
 
-        if (this.scrollY >= sectionTop - 60) {
+        if (window.scrollY >= sectionTop - 60) {
             current = section.getAttribute("id");
         }
     });
 
-    navLinks.forEach((item) => {
+    navLink.forEach((item) => {
         item.classList.remove("active");
 
         if (item.href.includes(current)) {

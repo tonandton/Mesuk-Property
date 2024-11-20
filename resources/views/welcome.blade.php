@@ -95,9 +95,14 @@
 
                     {{-- image --}}
                     <div class="w-full relative lg:w-1/2">
-                        <img class="rounded-xl"
+                        {{-- <img class="rounded-xl"
                             src="https://images.unsplash.com/photo-1450851100967-1a8368a583c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="">
+                            alt=""> --}}
+                        <iframe width="560" height="315" class="rounded-xl"
+                            src="https://www.youtube.com/embed/gaBz9Lq95XA?si=SuKoEZ7Jq2fZYoxq"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
                     </div>
@@ -108,43 +113,66 @@
 
         {{-- ประเภทสินค้า --}}
         <div class="bg-white text-green-900 py-20 mt-16 -mb-20">
-            <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 -mt-40 ">
+            <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 -mt-40 ">
                 {{-- card 1 --}}
                 <div
                     class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <img class="rounded-md w-full"
+                    {{-- <img class="rounded-md w-full"
                         src="https://www.happyfranchise.co.th/store/resources/img/category/1hq_catess_20241005125714.jpeg"
-                        alt="">
+                        alt=""> --}}
+                    <img src="https://img2.pic.in.th/pic/13cbc2b799b64ef7b.png" alt="1" border="0"
+                        class="rounded-md w-full">
                 </div>
                 {{-- card 2 --}}
                 <div
                     class=" border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <img class="rounded-md w-full"
+                    {{-- <img class="rounded-md w-full"
                         src="https://img2.pic.in.th/pic/2f9f4bd0-2e1b-48d4-82ef-517fd18077cb.jpeg"
-                        alt="%DISPLAY_TITLE%">
+                        alt="%DISPLAY_TITLE%"> --}}
+                    <img src="https://img2.pic.in.th/pic/295d5d11cd448a2bd5c.png" alt="295" border="0"
+                        class="rounded-md w-full">
                 </div>
                 {{-- card 3 --}}
                 <div
                     class="border  cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <img class="rounded-md w-full"
+                    {{-- <img class="rounded-md w-full"
                         src="https://img2.pic.in.th/pic/0134891e-2048-4de7-a32b-e3e1f853bc14.jpeg"
-                        alt="%DISPLAY_TITLE%">
+                        alt="%DISPLAY_TITLE%"> --}}
+                    <img src="https://img5.pic.in.th/file/secure-sv1/296bbf89a8d9c6a13c8.png" alt="296"
+                        border="0" class="rounded-md w-full">
                 </div>
                 {{-- card 4 --}}
                 <div
                     class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <img class="rounded-md w-full"
+                    {{-- <img class="rounded-md w-full"
                         src="https://img5.pic.in.th/file/secure-sv1/aa6fc013-1b93-4811-9ec9-20e8ba608e7c.jpeg"
-                        alt="%DISPLAY_TITLE%" border="0">
+                        alt="%DISPLAY_TITLE%" border="0"> --}}
+                    <img src="https://img5.pic.in.th/file/secure-sv1/2975630b7395972d319.png" alt="297"
+                        border="0" class="rounded-md w--full">
                 </div>
                 {{-- card 5 --}}
                 <div
                     class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
                     <div class="flex items-center gap-5">
 
-                        <img class="rounded-md"
+                        {{-- <img class="rounded-md"
                             src="https://www.happyfranchise.co.th/store/resources/img/category/h1n_catess_20241006171516.jpeg"
-                            alt="">
+                            alt=""> --}}
+                        <img src="https://img5.pic.in.th/file/secure-sv1/298325aa9b10a4e3f18.png" alt="298"
+                            border="0" class="rounded-md w-full">
+                    </div>
+
+                </div>
+                {{-- card 6 --}}
+                <div
+                    class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                    <div class="flex items-center gap-5">
+
+                        {{-- <img class="rounded-md"
+                            src="https://www.happyfranchise.co.th/store/resources/img/category/h1n_catess_20241006171516.jpeg"
+                            alt=""> --}}
+                        <img src="https://img2.pic.in.th/pic/299e5f3cb48d86d2f50.png" alt="299" border="0"
+                            class="rounded-md w-full">
                     </div>
 
                 </div>
@@ -166,8 +194,10 @@
                         <div class="swiper-slide">
                             <div class="flex flex-col gap-5 rounded-md p-6">
 
-                                <img src="https://img2.pic.in.th/pic/e2201bf0-05b7-4b05-89a4-3bd92dea5b16.jpeg"
-                                    alt="e2201bf0 05b7 4b05 89a4 3bd92dea5b16" border="0" class="rounded-lg">
+                                {{-- <img src="https://img2.pic.in.th/pic/e2201bf0-05b7-4b05-89a4-3bd92dea5b16.jpeg"
+                                    alt="e2201bf0 05b7 4b05 89a4 3bd92dea5b16" border="0" class="rounded-lg"> --}}
+                                <img src="https://img2.pic.in.th/pic/302a6a63a75608f5638.png" border="0"
+                                    class="rounded-lg">
 
                                 <div class="relative px-4 -mt-24">
                                     <div class="bg-white p-6 rounded-lg shadow-lg">
@@ -189,7 +219,7 @@
                             <div class="flex flex-col gap-5 rounded-md p-6">
 
 
-                                <img src="https://img5.pic.in.th/file/secure-sv1/9dc2b4c3-4c7e-4995-8fbf-dee36e9c1e72.jpeg"
+                                <img src="https://img5.pic.in.th/file/secure-sv1/303d64a632431f9a615.png"
                                     alt="9dc2b4c3 4c7e 4995 8fbf dee36e9c1e72" border="0" class="rounded-lg">
 
                                 <div class="relative px-4 -mt-24">
@@ -209,7 +239,9 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="flex flex-col gap-5 rounded-md p-6">
-                                <img src="https://img5.pic.in.th/file/secure-sv1/aa6fc013-1b93-4811-9ec9-20e8ba608e7c.jpeg"
+                                {{-- <img src="https://img5.pic.in.th/file/secure-sv1/aa6fc013-1b93-4811-9ec9-20e8ba608e7c.jpeg"
+                                    alt="" class="rounded-lg invisible sm:visible"> --}}
+                                <img src="https://www.happyfranchise.co.th/store/resources/img/category/1hq_catess_20241005125714.jpeg"
                                     alt="" class="rounded-lg invisible sm:visible">
 
                                 <div class="relative px-4 -mt-24">
@@ -308,10 +340,28 @@
             </div>
         </section>
 
+        {{-- Mesuk --}}
+        <section class="-mt-50 -mb-35">
+            <div class="flex flex-col items-center gap-3 text-center mb-10">
+                <h2 class="title">จุดเด่นของระบบสำเร็จรูป PEB</h2>
+                <h2 class="title">มาตราฐาน MESUK</h2>
+            </div>
+
+            <div class="container">
+                <div>
+                    <div class="mb-10">
+                        <div class="flex flex-col gap-5 rounded-md p-6">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         {{-- สินแนะนำ --}}
         <section id="popular" class="-mt-50 -mb-35">
-
-            <div class="flex flex-col items-center gap-3 text-center -mt-20 mb-10">
+            <div class="flex flex-col items-center gap-3 text-center mt-5 mb-10">
                 <h2 class="title">สินค้าแนะนำ</h2>
             </div>
             {{--
