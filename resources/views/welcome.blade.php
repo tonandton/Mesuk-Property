@@ -93,12 +93,12 @@
 
                     </div>
 
-                    {{-- image --}}
+                    {{-- image & video --}}
                     <div class="w-full relative lg:w-1/2">
                         {{-- <img class="rounded-xl"
                             src="https://images.unsplash.com/photo-1450851100967-1a8368a583c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt=""> --}}
-                        <iframe width="560" height="315" class="rounded-xl"
+                        <iframe width="100%" height="540" class="rounded-xl"
                             src="https://www.youtube.com/embed/gaBz9Lq95XA?si=SuKoEZ7Jq2fZYoxq"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -265,99 +265,131 @@
         </section>
 
         {{-- เกี่ยวกับจุดเด่น --}}
-        <section id="about" class="relative overflow-hidden -mt-40 -mb-35">
-
-            <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
-                <h2 class="title">จุดเด่นของระบบสำเร็จรูป PEB</h2>
-                <h2 class="title">มาตราฐาน Mesuk</h2>
-
-            </div>
-
-            <div class="container space-y-10 xl:space-y-0">
-                {{-- item1 --}}
-                <div class="flex flex-col items-center lg:flex-row gap-5">
-                    {{-- image --}}
-                    <div class="w-full lg:w-1/2">
-                        <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
-                    </div>
-                    {{-- content --}}
-                    <div class="w-full lg:w-1/2">
-                        <div class="space-y-5">
-                            <h3><span class="text-green-500">มีมาตราฐาน</span>
-                                <br>
-                            </h3>
-                            <p class="text-slate-600 ">ระบบสำเร็จรูป PEB (Pre Engineering Build)
-                                เป็นโครงสร้างเหล็กสำเร็จรูป เป็นระบบการก่อสร้างอาคารแบบ น็อคดาวน์โดยจะผลิตชิ้นส่วนจาก
-                                โรงงานโดยที่โครงสร้างทุกชิ้นส่วน จะถูกออกแบบอย่างถูกต้องตามหลัก
-                                วิศวกรรมชิ้นส่วนโครงสร้าง จะถูกนำมาประกอบที่หน้างาน</p>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- item2 --}}
-                <div class="flex flex-col items-center lg:flex-row-reverse gap-5">
-                    {{-- image --}}
-                    <div class="w-full lg:w-1/2">
-                        <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
-                    </div>
-                    {{-- content --}}
-                    <div class="w-full lg:w-1/2">
-                        <div class="space-y-5">
-                            <h3>Make Make <span class="text-green-500">Save Time</span>
-                                <br> PEB
-                            </h3>
-                            <p class="text-slate-600 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
-                                repellendus ea optio
-                                necessitatibus sapiente perferendis molestias unde dolor molestiae similique obcaecati
-                                sit,
-                                autem et ad commodi labore maiores consequatur aliquam!</p>
-                        </div>
-                    </div>
-                </div>
-                {{-- item3 --}}
-                <div class="flex flex-col items-center lg:flex-row gap-5">
-                    {{-- image --}}
-                    <div class="w-full lg:w-1/2">
-                        <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
-                    </div>
-                    {{-- content --}}
-                    <div class="w-full lg:w-1/2">
-                        <div class="space-y-5">
-                            <h3>Make Make <span class="text-green-500">Save Time</span>
-                                <br> PEB
-                            </h3>
-                            <p class="text-slate-600 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
-                                repellendus ea optio
-                                necessitatibus sapiente perferendis molestias unde dolor molestiae similique obcaecati
-                                sit,
-                                autem et ad commodi labore maiores consequatur aliquam!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        {{-- Mesuk --}}
-        <section class="-mt-50 -mb-35">
+        <section class="-mt-40 -mb-35">
             <div class="flex flex-col items-center gap-3 text-center mb-10">
                 <h2 class="title">จุดเด่นของระบบสำเร็จรูป PEB</h2>
                 <h2 class="title">มาตราฐาน MESUK</h2>
             </div>
 
             <div class="container">
-                <div>
-                    <div class="mb-10">
-                        <div class="flex flex-col gap-5 rounded-md p-6">
+                <div class="swiper py-12">
+                    <div class="swiper-wrapper mb-10">
 
+                        {{-- Card 1 --}}
+                        <div class="swiper-slide">
+                            <div class="flex flex-col gap-3 rounded-md p-6">
+                                <div class="relative px-4">
+                                    <div class="rounded-xl border-b-4 border-emerald-400 bg-white shadow -mb-40">
+                                        <div class="bg-white p-7 rounded-lg h-full">
+                                            <h1 class="mb-5 text-slate-700 text-center">มีมาตราฐาน</h1>
+                                            <p class="text-slate-600 mb-20 p-2 text-2xl text-center">ระบบสำเร็จรูป
+                                                <br />PEB (Pre
+                                                Engineering
+                                                Build)
+                                                </br>
+                                                เป็นโครงสร้างเหล็กสำเร็จรูปเป็นระบบการก่อสร้างอาคารแบบ
+                                                <br />
+                                                น็อคดาวน์โดยจะผลิตชิ้นส่วนจากโรงงานโดยที่โครงสร้างทุกชิ้นส่วน
+                                                <br />
+                                                จะถูกออกแบบอย่างถูกต้องตามหลักวิศวกรรมชิ้นส่วนโครงสร้างจะถูก
+                                                <br />
+                                                นำมาประกอบที่หน้างาน
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center py-10 relative ">
+                                <div
+                                    class="mt-10 flex h-20 w-20 items-center justify-center rounded-full bg-emerald-500 text-white">
+                                    <svg class="h-8 w-8 " xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Card 2 --}}
+                        <div class="swiper-slide">
+                            <div class="flex flex-col gap-3 rounded-md p-6">
+                                <div class="relative px-4">
+                                    <div class="rounded-xl border-b-4 border-emerald-400 bg-white shadow -mb-40">
+                                        <div class="bg-white p-7 rounded-lg h-full">
+                                            <h1 class="mb-5 text-slate-700 text-center">ความแข็งแรง</h1>
+                                            <p class="text-slate-600 mb-20 p-2 text-2xl text-center">ระบบสำเร็จรูป
+                                                <br />
+                                                รูปแบบของโครงสร้างหลัก
+                                                (Primary Structure) จะมีเป็น
+                                                <br />
+                                                โครงข้อแข็ง
+                                                (Steel
+                                                port frame of Rigid frame)
+                                                ซึ่งมีเสถียรภาพในการต้านทานทั้งแรงในแนวดิ่งจากน้ำหนักตัวของโครงสร้างและแรงให้แนวราบจากแรงลมแและแรงแผ่นดินไหวได้อย่างมีประสิทธิภาพ
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center py-10 relative ">
+                                <div
+                                    class="mt-10 flex h-20 w-20 items-center justify-center rounded-full bg-emerald-500 text-white">
+                                    <svg class="h-8 w-8 " xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Card 3 --}}
+                        <div class="swiper-slide">
+                            <div class="flex flex-col gap-3 rounded-md p-6">
+                                <div class="px-4">
+                                    <div class="rounded-xl border-b-4 border-emerald-400 bg-white shadow -mb-40">
+                                        <div class="bg-white p-7 rounded-lg h-full">
+                                            <h1 class="mb-5 text-slate-700 text-center">ประหยัด</h1>
+                                            <p>
+                                            <p class="text-slate-600 mb-14 p-2 text-2xl text-center">
+                                                ระบบสำเร็จรูป
+                                                <br />
+                                                มีข้อได้เปรียบในเรื่องของความประหยัดเวลาในการก่อสร้าง
+                                                <br />
+                                                เมื่อเปรียบเทียบกับวิธีการก่อสร้างแบบทั่วไป
+                                                และเพิ่มประสิทธิ์ภาพใน
+                                                <br />
+                                                การจัดสรรทรัพยากรต่างๆ
+                                                อย่างมีประสิทธิภาพ
+                                                เช่นจำนวนงานที่ใช้
+                                                <br />
+                                                ลดลงและจากการ
+                                                ลดระยะเวลาในนการก่อสรา้งจึงทำให้ค่าใช้จ่ายใน
+                                                <br />
+                                                การก่อสรา้งถูกลง
+                                            </p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center py-10 relative ">
+                                <div
+                                    class="mt-10 flex h-20 w-20 items-center justify-center rounded-full bg-emerald-500 text-white">
+                                    <svg class="h-8 w-8 " xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="swiper-pagination"> </div>
                 </div>
             </div>
         </section>
-
 
         {{-- สินแนะนำ --}}
         <section id="popular" class="-mt-50 -mb-35">

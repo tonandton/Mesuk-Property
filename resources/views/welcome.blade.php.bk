@@ -642,3 +642,81 @@
 </body>
 
 </html>
+
+
+
+       {{-- เกี่ยวกับจุดเด่น --}}
+        <section id="about" class="relative overflow-hidden -mt-40 -mb-35">
+
+            <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+                <h2 class="title">จุดเด่นของระบบสำเร็จรูป PEB</h2>
+                <h2 class="title">มาตราฐาน Mesuk</h2>
+
+            </div>
+
+            <div class="container space-y-10 xl:space-y-0">
+                {{-- item1 --}}
+                <div class="flex flex-col items-center lg:flex-row gap-5">
+                    {{-- image --}}
+                    <div class="w-full lg:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
+                    </div>
+                    {{-- content --}}
+                    <div class="w-full lg:w-1/2">
+                        <div class="space-y-5">
+                            <h3><span class="text-green-500">มีมาตราฐาน</span>
+                                <br>
+                            </h3>
+                            <p class="text-slate-600 ">ระบบสำเร็จรูป PEB (Pre Engineering Build)
+                                เป็นโครงสร้างเหล็กสำเร็จรูป เป็นระบบการก่อสร้างอาคารแบบ น็อคดาวน์โดยจะผลิตชิ้นส่วนจาก
+                                โรงงานโดยที่โครงสร้างทุกชิ้นส่วน จะถูกออกแบบอย่างถูกต้องตามหลัก
+                                วิศวกรรมชิ้นส่วนโครงสร้าง จะถูกนำมาประกอบที่หน้างาน</p>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- item2 --}}
+                <div class="flex flex-col items-center lg:flex-row-reverse gap-5">
+                    {{-- image --}}
+                    <div class="w-full lg:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
+                    </div>
+                    {{-- content --}}
+                    <div class="w-full lg:w-1/2">
+                        <div class="space-y-5">
+                            <h3>Make Make <span class="text-green-500">Save Time</span>
+                                <br> PEB
+                            </h3>
+                            <p class="text-slate-600 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
+                                repellendus ea optio
+                                necessitatibus sapiente perferendis molestias unde dolor molestiae similique obcaecati
+                                sit,
+                                autem et ad commodi labore maiores consequatur aliquam!</p>
+                        </div>
+                    </div>
+                </div>
+                {{-- item3 --}}
+                <div class="flex flex-col items-center lg:flex-row gap-5">
+                    {{-- image --}}
+                    <div class="w-full lg:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto rounded-md">
+                    </div>
+                    {{-- content --}}
+                    <div class="w-full lg:w-1/2">
+                        <div class="space-y-5">
+                            <h3>Make Make <span class="text-green-500">Save Time</span>
+                                <br> PEB
+                            </h3>
+                            <p class="text-slate-600 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
+                                repellendus ea optio
+                                necessitatibus sapiente perferendis molestias unde dolor molestiae similique obcaecati
+                                sit,
+                                autem et ad commodi labore maiores consequatur aliquam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
