@@ -386,87 +386,49 @@
             <div class="flex flex-col items-center gap-3 text-center mt-5 mb-10">
                 <h2 class="title">ผลงาน</h2>
             </div>
-
-            <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
-                <div class="-m-1 flex flex-wrap md:-m-2">
-                    <div class="flex w-1/2 flex-wrap">
-                        <div class="w-1/2 p-1 md:p-2">
-                            <div
-                                class="relative h-full max-w-sm mx-auto px-5 py-2 group rounded-md bg-gray-200 overflow-hidden shadow-xl">
-                                <img src="https://img2.pic.in.th/pic/30862becb5ef9ffa7ee.png" alt=""
-                                    class="absolute w-full h-full inset-0 ">
-                                <div
-                                    class="absolute inset-0 w-full h-full rounded-2xl bg-black bg-opacity-0 transition duration-500 backdrop-filter group-hover:bg-opacity-20 group-hover:backdrop-blur">
-                                </div>
-                                <div
-                                    class="flex flex-col absolute inset-x-2 text-white text-xs sm:text-sm md:text-md lg:text-lg">
-                                    <a href="#" class="text-xs md:text-md xl:text-2xl font-semibold text-right">
-                                        66PP052
-                                    </a>
-                                    <p class="font-medium uppercase tracking-wider mb-6 text-right"> HW-H
-                                    </p>
-                                    <p class="hidden group-hover:block text-white">ผลงานโกดังสำเร็จรูป Happy
-                                        Prefabricated Warehouse - โครงสร้างเกล็กรีดร้อน (Hot Roll Wide Falnge) ขนาด 15 x
-                                        19.5 x 5 เมตร</p>
-                                </div>
-                                <button
-                                    class="absolute inset-x-5 bottom-8 py-3 rounded-2xl font-semibold bg-white shadow-lg hidden transition duration-200 hover:bg-gray-300 group-hover:block">ฮ่านต่อ</button>
+                <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+                        <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
+                            <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                                <img src="https://img2.pic.in.th/pic/30862becb5ef9ffa7ee.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">66PP052</h3>
+                            </a>
+                        </div>
+                        <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+                            <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+                                <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                    <img src="https://img2.pic.in.th/pic/309a956969fc72554e1.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                    <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">66PP047</h3>
+                                </a>
+                                <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                    <img src="https://img5.pic.in.th/file/secure-sv1/31167c50f724a25163c.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                    <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">66PP051</h3>
+                                </a>
+                                <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                    <img src="https://img5.pic.in.th/file/secure-sv1/3108a51a1ddd6282146.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                    <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"></h3>
+                                </a>
+                                <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                    <img src="https://img2.pic.in.th/pic/313.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                    <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"></h3>
+                                </a>
                             </div>
                         </div>
-                        <div class="w-1/2 p-1 md:p-2">
-                            <div
-                                class="relative h-full lg:h-96 max-w-sm mx-auto px-5 py-2 group rounded-md bg-gray-200 overflow-hidden shadow-xl">
-                                <img src="https://img2.pic.in.th/pic/309a956969fc72554e1.png" alt=""
-                                    class="absolute w-full h-full inset-0 ">
-                                <div
-                                    class="absolute inset-0 w-full h-full rounded-2xl bg-black bg-opacity-0 transition duration-500 backdrop-filter group-hover:bg-opacity-20 group-hover:backdrop-blur">
-                                </div>
-                                <div class="absolute inset-x-2 text-white text-xs md:text-md lg:text-lg">
-                                    <a class="text-xs md:text-md xl:text-2xl font-semibold text-right">67PP001</a>
-                                    <p class="font-medium uppercase tracking-wider mb-6 text-right"> HW-HC
-                                    </p>
-                                    <p class="hidden group-hover:block text-white">Whether you're looking to save money
-                                        spending
-                                        abroad or sticking to
-                                        your
-                                        budget with our built-in budgeting, get more from your money with our Standard
-                                        account.</p>
-                                </div>
-                                <button
-                                    class="absolute inset-x-5 bottom-8 py-3 rounded-2xl font-semibold bg-white shadow-lg hidden transition duration-200 hover:bg-gray-300 group-hover:block">ฮ่านต่อ</button>
-                            </div>
-
-                            {{-- <div class="w-1/2 p-1">
-                                <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
-                                    src="https://img2.pic.in.th/pic/30862becb5ef9ffa7ee.png" />
-                            </div> --}}
-                        </div>
-                        <div class="w-full p-1 md:p-2">
-                            {{-- <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
-                                src="https://img5.pic.in.th/file/secure-sv1/3108a51a1ddd6282146.png" /> --}}
-                            <div class="overflow-hidden shadow-xl">
-                                <img src="https://img5.pic.in.th/file/secure-sv1/3108a51a1ddd6282146.png"l
-                                    alt="" class="block h-full w-full rounded-lg  object-center">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex w-1/2 flex-wrap">
-                        <div class="w-full p-1 md:p-2">
-
-                            <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
-                                src="https://img5.pic.in.th/file/secure-sv1/31167c50f724a25163c.png" />
-                        </div>
-                        <div class="w-1/2 p-1 md:p-2">
-                            <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
-                                src="https://img5.pic.in.th/file/secure-sv1/312800ab0c9b46f590f.png" />
-                        </div>
-                        <div class="w-1/2 p-1 md:p-2">
-                            <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
-                                src="https://img2.pic.in.th/pic/313.png" />
+                        <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
+                            <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                                <img src="https://img5.pic.in.th/file/secure-sv1/312800ab0c9b46f590f.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"></h3>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
+
         </section>
 
         {{-- สินแนะนำ --}}
