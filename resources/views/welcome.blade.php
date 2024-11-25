@@ -35,7 +35,7 @@
                         <a href="#home" class="nav-link active">หน้าแรก</a>
                     </li>
                     <li>
-                        <a href="/" class="nav-link">เกี่ยวกับ</a>
+                        <a href="#hightlight" class="nav-link">หมวดแนะนำ</a>
                     </li>
                     <li>
                         <a href="#popular" class="nav-link">รายการสินค้า</a>
@@ -80,13 +80,13 @@
 
                         <div class="flex flex-col gap-2 sm:flex-row">
                             <button class="btn text-white hover:bg-green-600">
-                                <span>อ่านต่อ</span>
+                                <span><a href="#hightlight">อ่านต่อ</a></span>
                                 <i class="ri-arrow-right-circle-line"></i>
                             </button>
-                            <button class="btn btn_outline">
+                            {{-- <button class="btn btn_outline">
                                 <span>Company Profile</span>
                                 <i class="ri-file-download-line"></i>
-                            </button>
+                            </button> --}}
                         </div>
 
 
@@ -98,93 +98,95 @@
                         {{-- <img class="rounded-xl"
                             src="https://images.unsplash.com/photo-1450851100967-1a8368a583c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt=""> --}}
-                        <iframe width="100%" height="540" class="rounded-xl"
+                        <iframe width="100%" height="440" class="rounded-xl"
                             src="https://www.youtube.com/embed/gaBz9Lq95XA?si=SuKoEZ7Jq2fZYoxq"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
                     </div>
                 </div>
             </div>
-
         </section>
 
         {{-- ประเภทสินค้า --}}
-        <div class="bg-white text-green-900 py-20 mt-16 -mb-20">
-            <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 -mt-40 ">
-                {{-- card 1 --}}
+        <section class="-mt-20 -mb-35">
+            <div class="flex flex-col items-center gap-3 text-center mb-40">
+                <h2 class="title">ประเภทสินค้า</h2>
+            </div>
+
+            <div class="py-20 mt-16 -mb-20">
                 <div
-                    class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    {{-- <img class="rounded-md w-full"
+                    class="container w-full grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 -mt-40 ">
+                    {{-- card 1 --}}
+                    <div
+                        class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                        {{-- <img class="rounded-md w-full"
                         src="https://www.happyfranchise.co.th/store/resources/img/category/1hq_catess_20241005125714.jpeg"
                         alt=""> --}}
-                    <img src="https://img2.pic.in.th/pic/13cbc2b799b64ef7b.png" alt="1" border="0"
-                        class="rounded-md w-full">
-                </div>
-                {{-- card 2 --}}
-                <div
-                    class=" border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    {{-- <img class="rounded-md w-full"
-                        src="https://img2.pic.in.th/pic/2f9f4bd0-2e1b-48d4-82ef-517fd18077cb.jpeg"
-                        alt="%DISPLAY_TITLE%"> --}}
-                    <img src="https://img2.pic.in.th/pic/295d5d11cd448a2bd5c.png" alt="295" border="0"
-                        class="rounded-md w-full">
-                </div>
-                {{-- card 3 --}}
-                <div
-                    class="border  cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    {{-- <img class="rounded-md w-full"
-                        src="https://img2.pic.in.th/pic/0134891e-2048-4de7-a32b-e3e1f853bc14.jpeg"
-                        alt="%DISPLAY_TITLE%"> --}}
-                    <img src="https://img5.pic.in.th/file/secure-sv1/296bbf89a8d9c6a13c8.png" alt="296"
-                        border="0" class="rounded-md w-full">
-                </div>
-                {{-- card 4 --}}
-                <div
-                    class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    {{-- <img class="rounded-md w-full"
-                        src="https://img5.pic.in.th/file/secure-sv1/aa6fc013-1b93-4811-9ec9-20e8ba608e7c.jpeg"
-                        alt="%DISPLAY_TITLE%" border="0"> --}}
-                    <img src="https://img5.pic.in.th/file/secure-sv1/2975630b7395972d319.png" alt="297"
-                        border="0" class="rounded-md w--full">
-                </div>
-                {{-- card 5 --}}
-                <div
-                    class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <div class="flex items-center gap-5">
-
-                        {{-- <img class="rounded-md"
-                            src="https://www.happyfranchise.co.th/store/resources/img/category/h1n_catess_20241006171516.jpeg"
-                            alt=""> --}}
-                        <img src="https://img5.pic.in.th/file/secure-sv1/298325aa9b10a4e3f18.png" alt="298"
-                            border="0" class="rounded-md w-full">
-                    </div>
-
-                </div>
-                {{-- card 6 --}}
-                <div
-                    class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
-                    <div class="flex items-center gap-5">
-
-                        {{-- <img class="rounded-md"
-                            src="https://www.happyfranchise.co.th/store/resources/img/category/h1n_catess_20241006171516.jpeg"
-                            alt=""> --}}
-                        <img src="https://img2.pic.in.th/pic/299e5f3cb48d86d2f50.png" alt="299" border="0"
+                        <img src="https://img2.pic.in.th/pic/13cbc2b799b64ef7b.png" alt="1" border="0"
                             class="rounded-md w-full">
                     </div>
+                    {{-- card 2 --}}
+                    <div
+                        class=" border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                        {{-- <img class="rounded-md w-full"
+                        src="https://img2.pic.in.th/pic/2f9f4bd0-2e1b-48d4-82ef-517fd18077cb.jpeg"
+                        alt="%DISPLAY_TITLE%"> --}}
+                        <img src="https://img2.pic.in.th/pic/295d5d11cd448a2bd5c.png" alt="295" border="0"
+                            class="rounded-md w-full">
+                    </div>
+                    {{-- card 3 --}}
+                    <div
+                        class="border  cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                        {{-- <img class="rounded-md w-full"
+                        src="https://img2.pic.in.th/pic/0134891e-2048-4de7-a32b-e3e1f853bc14.jpeg"
+                        alt="%DISPLAY_TITLE%"> --}}
+                        <img src="https://img5.pic.in.th/file/secure-sv1/296bbf89a8d9c6a13c8.png" alt="296"
+                            border="0" class="rounded-md w-full">
+                    </div>
+                    {{-- card 4 --}}
+                    <div
+                        class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                        {{-- <img class="rounded-md w-full"
+                        src="https://img5.pic.in.th/file/secure-sv1/aa6fc013-1b93-4811-9ec9-20e8ba608e7c.jpeg"
+                        alt="%DISPLAY_TITLE%" border="0"> --}}
+                        <img src="https://img5.pic.in.th/file/secure-sv1/2975630b7395972d319.png" alt="297"
+                            border="0" class="rounded-md w--full">
+                    </div>
+                    {{-- card 5 --}}
+                    <div
+                        class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                        <div class="flex items-center gap-5">
 
+                            {{-- <img class="rounded-md"
+                            src="https://www.happyfranchise.co.th/store/resources/img/category/h1n_catess_20241006171516.jpeg"
+                            alt=""> --}}
+                            <img src="https://img5.pic.in.th/file/secure-sv1/298325aa9b10a4e3f18.png" alt="298"
+                                border="0" class="rounded-md w-full">
+                        </div>
+
+                    </div>
+                    {{-- card 6 --}}
+                    <div
+                        class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
+                        <div class="flex items-center gap-5">
+
+                            {{-- <img class="rounded-md"
+                            src="https://www.happyfranchise.co.th/store/resources/img/category/h1n_catess_20241006171516.jpeg"
+                            alt=""> --}}
+                            <img src="https://img2.pic.in.th/pic/299e5f3cb48d86d2f50.png" alt="299" border="0"
+                                class="rounded-md w-full">
+                        </div>
+
+                    </div>
                 </div>
-
-
             </div>
-        </div>
+        </section>
 
         {{-- หมวดสินค้า --}}
-        <section class="review -mt-50 -mb-35">
+        <section id="" class="review -mt-50 -mb-35">
             <div class="flex flex-col items-center gap-3 text-center mb-10">
-                <h2 class="title">หมวดสินค้า</h2>
+                <h2 class="title">หมวดแนะนำ</h2>
                 <p class="max-w-2xl"></p>
             </div>
 
@@ -265,7 +267,7 @@
         </section>
 
         {{-- เกี่ยวกับจุดเด่น --}}
-        <section class="-mt-40 -mb-35">
+        <section id="hightlight" class="-mt-50 -mb-35">
             <div class="flex flex-col items-center gap-3 text-center mb-10">
                 <h2 class="title">จุดเด่นของระบบสำเร็จรูป PEB</h2>
                 <h2 class="title">มาตราฐาน MESUK</h2>
@@ -299,14 +301,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex flex-col items-center py-10 relative ">
-                                <div
-                                    class="mt-10 flex h-20 w-20 items-center justify-center rounded-full bg-emerald-500 text-white">
-                                    <svg class="h-8 w-8 " xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
-                                    </svg>
+                            <div class="flex flex-col items-center py-10 relative">
+                                <div class="mt-10 flex items-center justify-center  text-white w-24 h-24">
+                                    <img src="https://img2.pic.in.th/pic/3067515e7ba94a96d2d.png" alt="306">
                                 </div>
                             </div>
                         </div>
@@ -334,12 +331,9 @@
                             </div>
                             <div class="flex flex-col items-center py-10 relative ">
                                 <div
-                                    class="mt-10 flex h-20 w-20 items-center justify-center rounded-full bg-emerald-500 text-white">
-                                    <svg class="h-8 w-8 " xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
-                                    </svg>
+                                    class="mt-10 flex w-24 h-24 items-center justify-center rounded-full bg-emerald-500 text-white">
+                                    <img src="https://img5.pic.in.th/file/secure-sv1/3077101a4aea3aa69e3.png"
+                                        alt="307" border="0">
                                 </div>
                             </div>
                         </div>
@@ -376,17 +370,101 @@
                             </div>
                             <div class="flex flex-col items-center py-10 relative ">
                                 <div
-                                    class="mt-10 flex h-20 w-20 items-center justify-center rounded-full bg-emerald-500 text-white">
-                                    <svg class="h-8 w-8 " xmlns="http://www.w3.org/2000/svg" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
-                                    </svg>
+                                    class="mt-10 flex h-24 w-24 items-center justify-center rounded-full bg-emerald-500 text-white">
+                                    <img src="https://img5.pic.in.th/file/secure-sv1/305b0ff9d412e3cc838.png"
+                                        alt="305" border="0">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"> </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="-mt-40 -mb-35">
+            <div class="flex flex-col items-center gap-3 text-center mt-5 mb-10">
+                <h2 class="title">ผลงาน</h2>
+            </div>
+
+            <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+                <div class="-m-1 flex flex-wrap md:-m-2">
+                    <div class="flex w-1/2 flex-wrap">
+                        <div class="w-1/2 p-1 md:p-2">
+                            <div
+                                class="relative h-full max-w-sm mx-auto px-5 py-2 group rounded-md bg-gray-200 overflow-hidden shadow-xl">
+                                <img src="https://img2.pic.in.th/pic/30862becb5ef9ffa7ee.png" alt=""
+                                    class="absolute w-full h-full inset-0 ">
+                                <div
+                                    class="absolute inset-0 w-full h-full rounded-2xl bg-black bg-opacity-0 transition duration-500 backdrop-filter group-hover:bg-opacity-20 group-hover:backdrop-blur">
+                                </div>
+                                <div
+                                    class="flex flex-col absolute inset-x-2 text-white text-xs sm:text-sm md:text-md lg:text-lg">
+                                    <a href="#" class="text-xs md:text-md xl:text-2xl font-semibold text-right">
+                                        66PP052
+                                    </a>
+                                    <p class="font-medium uppercase tracking-wider mb-6 text-right"> HW-H
+                                    </p>
+                                    <p class="hidden group-hover:block text-white">ผลงานโกดังสำเร็จรูป Happy
+                                        Prefabricated Warehouse - โครงสร้างเกล็กรีดร้อน (Hot Roll Wide Falnge) ขนาด 15 x
+                                        19.5 x 5 เมตร</p>
+                                </div>
+                                <button
+                                    class="absolute inset-x-5 bottom-8 py-3 rounded-2xl font-semibold bg-white shadow-lg hidden transition duration-200 hover:bg-gray-300 group-hover:block">ฮ่านต่อ</button>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <div
+                                class="relative h-full lg:h-96 max-w-sm mx-auto px-5 py-2 group rounded-md bg-gray-200 overflow-hidden shadow-xl">
+                                <img src="https://img2.pic.in.th/pic/309a956969fc72554e1.png" alt=""
+                                    class="absolute w-full h-full inset-0 ">
+                                <div
+                                    class="absolute inset-0 w-full h-full rounded-2xl bg-black bg-opacity-0 transition duration-500 backdrop-filter group-hover:bg-opacity-20 group-hover:backdrop-blur">
+                                </div>
+                                <div class="absolute inset-x-2 text-white text-xs md:text-md lg:text-lg">
+                                    <a class="text-xs md:text-md xl:text-2xl font-semibold text-right">67PP001</a>
+                                    <p class="font-medium uppercase tracking-wider mb-6 text-right"> HW-HC
+                                    </p>
+                                    <p class="hidden group-hover:block text-white">Whether you're looking to save money
+                                        spending
+                                        abroad or sticking to
+                                        your
+                                        budget with our built-in budgeting, get more from your money with our Standard
+                                        account.</p>
+                                </div>
+                                <button
+                                    class="absolute inset-x-5 bottom-8 py-3 rounded-2xl font-semibold bg-white shadow-lg hidden transition duration-200 hover:bg-gray-300 group-hover:block">ฮ่านต่อ</button>
+                            </div>
+
+                            {{-- <div class="w-1/2 p-1">
+                                <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
+                                    src="https://img2.pic.in.th/pic/30862becb5ef9ffa7ee.png" />
+                            </div> --}}
+                        </div>
+                        <div class="w-full p-1 md:p-2">
+                            {{-- <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
+                                src="https://img5.pic.in.th/file/secure-sv1/3108a51a1ddd6282146.png" /> --}}
+                            <div class="overflow-hidden shadow-xl">
+                                <img src="https://img5.pic.in.th/file/secure-sv1/3108a51a1ddd6282146.png"l
+                                    alt="" class="block h-full w-full rounded-lg  object-center">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex w-1/2 flex-wrap">
+                        <div class="w-full p-1 md:p-2">
+
+                            <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
+                                src="https://img5.pic.in.th/file/secure-sv1/31167c50f724a25163c.png" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
+                                src="https://img5.pic.in.th/file/secure-sv1/312800ab0c9b46f590f.png" />
+                        </div>
+                        <div class="w-1/2 p-1 md:p-2">
+                            <img alt="gallery" class="block h-full w-full rounded-lg  object-center"
+                                src="https://img2.pic.in.th/pic/313.png" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -719,6 +797,8 @@
 
     {{-- Swiper JS --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
 </body>
 
 </html>
