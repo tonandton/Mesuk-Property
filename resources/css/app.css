@@ -42,7 +42,12 @@ h3 {
 }
 
 .title {
-    @apply text-green-500;
+    /* @apply text-green-500; */
+    @apply text-black font-bold text-3xl md:text-5xl ;
+}
+.title-2 {
+    /* @apply text-green-500; */
+    @apply text-emerald-500 font-bold;
 }
 
 /* Button */

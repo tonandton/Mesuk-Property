@@ -283,8 +283,9 @@
                                 <div class="relative px-4">
                                     <div class="rounded-xl border-b-4 border-emerald-400 bg-white shadow -mb-40">
                                         <div class="bg-white p-7 rounded-lg h-full">
-                                            <h1 class="mb-5 text-slate-700 text-center">มีมาตราฐาน</h1>
-                                            <p class="text-slate-600 mb-20 p-2 text-2xl text-center">ระบบสำเร็จรูป
+                                            <h1 class="mb-5 title-2 text-center">มีมาตราฐาน</h1>
+                                            <p class="text-slate-600 mb-20 p-2 text-xl md:text-2xl text-center">
+                                                ระบบสำเร็จรูป
                                                 <br />PEB (Pre
                                                 Engineering
                                                 Build)
@@ -314,8 +315,9 @@
                                 <div class="relative px-4">
                                     <div class="rounded-xl border-b-4 border-emerald-400 bg-white shadow -mb-40">
                                         <div class="bg-white p-7 rounded-lg h-full">
-                                            <h1 class="mb-5 text-slate-700 text-center">ความแข็งแรง</h1>
-                                            <p class="text-slate-600 mb-20 p-2 text-2xl text-center">ระบบสำเร็จรูป
+                                            <h1 class="mb-5  title-2 text-center">ความแข็งแรง</h1>
+                                            <p class="text-slate-600 mb-20 p-2 text-xl md:text-2xl text-center">
+                                                ระบบสำเร็จรูป
                                                 <br />
                                                 รูปแบบของโครงสร้างหลัก
                                                 (Primary Structure) จะมีเป็น
@@ -344,9 +346,9 @@
                                 <div class="px-4">
                                     <div class="rounded-xl border-b-4 border-emerald-400 bg-white shadow -mb-40">
                                         <div class="bg-white p-7 rounded-lg h-full">
-                                            <h1 class="mb-5 text-slate-700 text-center">ประหยัด</h1>
+                                            <h1 class="mb-5 title-2 text-center">ประหยัด</h1>
                                             <p>
-                                            <p class="text-slate-600 mb-14 p-2 text-2xl text-center">
+                                            <p class="text-slate-600 mb-14 p-2 text-xl md:text-2xl text-center">
                                                 ระบบสำเร็จรูป
                                                 <br />
                                                 มีข้อได้เปรียบในเรื่องของความประหยัดเวลาในการก่อสร้าง
@@ -386,48 +388,75 @@
             <div class="flex flex-col items-center gap-3 text-center mt-5 mb-10">
                 <h2 class="title">ผลงาน</h2>
             </div>
-                <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
-                        <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
-                            <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                <img src="https://img2.pic.in.th/pic/30862becb5ef9ffa7ee.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+            <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+                    <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
+                        <a href=""
+                            class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                            <img src="https://img2.pic.in.th/pic/30862becb5ef9ffa7ee.png" alt=""
+                                class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                            <h3
+                                class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                66PP052</h3>
+                        </a>
+                    </div>
+                    <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+                        <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+                            <a href=""
+                                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                <img src="https://img2.pic.in.th/pic/309a956969fc72554e1.png" alt=""
+                                    class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                                 <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">66PP052</h3>
+                                <h3
+                                    class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                    66PP047</h3>
                             </a>
-                        </div>
-                        <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
-                            <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-                                <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                    <img src="https://img2.pic.in.th/pic/309a956969fc72554e1.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                    <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">66PP047</h3>
-                                </a>
-                                <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                    <img src="https://img5.pic.in.th/file/secure-sv1/31167c50f724a25163c.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                    <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">66PP051</h3>
-                                </a>
-                                <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                    <img src="https://img5.pic.in.th/file/secure-sv1/3108a51a1ddd6282146.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                    <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"></h3>
-                                </a>
-                                <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
-                                    <img src="https://img2.pic.in.th/pic/313.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
-                                    <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                    <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"></h3>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
-                            <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
-                                <img src="https://img5.pic.in.th/file/secure-sv1/312800ab0c9b46f590f.png" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <a href=""
+                                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                <img src="https://img5.pic.in.th/file/secure-sv1/31167c50f724a25163c.png"
+                                    alt=""
+                                    class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
                                 <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
-                                <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"></h3>
+                                <h3
+                                    class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                    66PP051</h3>
+                            </a>
+                            <a href=""
+                                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                <img src="https://img5.pic.in.th/file/secure-sv1/3108a51a1ddd6282146.png"
+                                    alt=""
+                                    class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                <h3
+                                    class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                    67PP009</h3>
+                            </a>
+                            <a href=""
+                                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                <img src="https://img2.pic.in.th/pic/313.png" alt=""
+                                    class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                <h3
+                                    class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                </h3>
                             </a>
                         </div>
                     </div>
+                    <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
+                        <a href=""
+                            class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                            <img src="https://img5.pic.in.th/file/secure-sv1/312800ab0c9b46f590f.png" alt=""
+                                class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                            <h3
+                                class="z-10 text-xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                P326</h3>
+                            <p>dsdsd</p>
+                        </a>
+                    </div>
                 </div>
+            </div>
 
         </section>
 
@@ -666,25 +695,92 @@
 
         </section>
 
+        <section class="profile -mt-50 -mb-35">
+            <div class="flex flex-col items-center gap-3 text-center mb-10">
+                {{-- <h2 class="title"></h2> --}}
+            </div>
 
-    </main>
+            <div class="container">
+                <div class="mb-10">
+                    <div class="container w-full grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-8 transition-all duration-300 animate-fade-in">
+                            <div class="flex flex-col md:flex-row">
 
-    {{-- Footer --}}
-    <footer class="bg-green-100 text-green-900 pt-20 pb-10 md:pt-28 relative mt-20">
-        <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2">
-            <div class="bg-emerald-500 px-10 pt-5 pb-10 space-y-5 rounded-md">
-                <h3><span class="text-green-700">subscribe</span>to our newsletter</h3>
-                <div class="flex flex-col md:flex-row gap-1">
-                    <input type="eamil" placeholder="Your email address"
-                        class="w-full px-5 py-3 text-green-900 rounded-md outline-none mb-2">
-                    <button
-                        class="flex h-full items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
-                        <span>subscribe</span>
-                        <i class="ri-send-plane-2-fill"></i>
-                    </button>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-8 transition-all duration-300 animate-fade-in">
+                            <div class="flex flex-col md:flex-row">
+                                <div class="md:w-1/3 text-center mb-8 md:mb-0">
+                                    <img src="https://lh3.googleusercontent.com/a/ACg8ocIOccPi58OUdfxHBBjK978fVc-zSuwE8vaEhdM_dp8siY1VWcPQ=s288-c-no"
+                                        alt="Profile Picture" class="rounded-full w-48 h-48 mx-auto mb-4">
+                                    <h1 class="text-2xl lg:text-xl font-bold text-emerald-800 dark:text-white mb-2">นาย
+                                        รัชต์ภาคย์
+                                        หันจางสิทธิ์</h1>
+                                    <p class="text-gray-600 dark:text-gray-300">ตำแหน่ง: Director</p>
+                                </div>
+                                <div class="md:w-2/3 md:pl-8">
+                                    <h2 class="text-xl font-semibold text-emerald-800 dark:text-white mb-4">
+                                        เกี่ยวกับตัวแทน
+                                    </h2>
+                                    <p class="text-gray-700 dark:text-gray-300 mb-6">
+                                        ประสบการณ์ด้านการขายอสังหาริมทรัพย์โกดังสำเร็จรูป และบ้านสำเร็จรูปมา 3 ปี
+                                        และขายโกดังทั้ง 50 โกดังทั้วประเทศ
+                                    </p>
+                                    <h2 class="text-xl font-semibold text-emerald-800 dark:text-white mb-4">
+                                        ประสบการณ์ด้านการขาย</h2>
+                                    <div class="flex flex-wrap gap-2 mb-6">
+                                        <span
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">โกดังสำเร็จรูป</span>
+                                        <span
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">บ้านสำเร็จสำเรูป</span>
+                                        <span
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">โกดังเช่า</span>
+                                        <span
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">วัสดุก่อสร้าง</span>
+                                        <span
+                                            class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">เซ้งสิทธิ์</span>
+                                    </div>
+                                    <h2 class="text-xl font-semibold text-emerald-800 dark:text-white mb-4">
+                                        ข้อมูลติดต่อ</h2>
+                                    <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                                        <li class="flex items-center">
+                                            <div class="flex items-center">
+                                                <i class="ri-mail-fill text-green-700  text-2xl"></i>
+                                            </div>
+                                            <span class="ml-5">
+                                                it@me-suk.com
+                                            </span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <div class="flex items-center">
+                                                <i class="ri-smartphone-fill text-green-700 text-2xl"></i>
+                                            </div>
+                                            <span class="ml-5">
+                                                0917964936
+                                            </span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <div class="flex items-center">
+                                                <i class="ri-map-pin-2-fill text-green-700 text-2xl"></i>
+                                            </div>
+                                            <span class="ml-5">
+                                                บริษัท มีสุข คอร์ปอเรชั่น (2006) จำกัด
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+    </main>
+    {{-- Footer --}}
+    <footer class="bg-green-100 text-green-900 pt-20 pb-10 md:pt-28 relative mt-20">
 
         {{-- Icon Social --}}
         <div class="container mt-16 mb-10">
@@ -759,8 +855,6 @@
 
     {{-- Swiper JS --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
 </body>
 
 </html>
