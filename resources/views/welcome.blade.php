@@ -184,7 +184,7 @@
         </section>
 
         {{-- หมวดสินค้า --}}
-        <section id="" class="review -mt-50 -mb-35">
+        <section id="hightlight" class="review -mt-50 -mb-35">
             <div class="flex flex-col items-center gap-3 text-center mb-10">
                 <h2 class="title">หมวดแนะนำ</h2>
                 <p class="max-w-2xl"></p>
@@ -267,7 +267,7 @@
         </section>
 
         {{-- เกี่ยวกับจุดเด่น --}}
-        <section id="hightlight" class="-mt-50 -mb-35">
+        <section id="" class="-mt-50 -mb-35">
             <div class="flex flex-col items-center gap-3 text-center mb-10">
                 <h2 class="title">จุดเด่นของระบบสำเร็จรูป PEB</h2>
                 <h2 class="title">มาตราฐาน MESUK</h2>
@@ -387,6 +387,75 @@
         <section class="-mt-40 -mb-35">
             <div class="flex flex-col items-center gap-3 text-center mt-5 mb-10">
                 <h2 class="title">ผลงาน</h2>
+            </div>
+            <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+                    <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
+                        <a href=""
+                            class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                            <img src="https://img2.pic.in.th/pic/30862becb5ef9ffa7ee.png" alt=""
+                                class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                            <h3
+                                class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                66PP052</h3>
+                        </a>
+                    </div>
+                    <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+                        <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+                            <a href=""
+                                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                <img src="https://img2.pic.in.th/pic/309a956969fc72554e1.png" alt=""
+                                    class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                <h3
+                                    class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                    66PP047</h3>
+                            </a>
+                            <a href=""
+                                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                <img src="https://img5.pic.in.th/file/secure-sv1/31167c50f724a25163c.png"
+                                    alt=""
+                                    class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                <h3
+                                    class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                    66PP051</h3>
+                            </a>
+                            <a href=""
+                                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                <img src="https://img5.pic.in.th/file/secure-sv1/3108a51a1ddd6282146.png"
+                                    alt=""
+                                    class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                <h3
+                                    class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                    67PP009</h3>
+                            </a>
+                            <a href=""
+                                class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                                <img src="https://img2.pic.in.th/pic/313.png" alt=""
+                                    class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                                <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                                <h3
+                                    class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                </h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
+                        <a href=""
+                            class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                            <img src="https://img5.pic.in.th/file/secure-sv1/312800ab0c9b46f590f.png" alt=""
+                                class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                            <h3
+                                class="z-10 text-xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+                                P326</h3>
+                            <p>dsdsd</p>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
@@ -724,24 +793,34 @@
                         <div
                             class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-8 transition-all duration-300 animate-fade-in">
                             <div class="flex flex-col md:flex-row">
-                                <div class="md:w-1/3 text-center mb-15 md:mb-0">
+                                <div class="md:w-1/3 text-center mb-8 md:mb-0 ">
                                     <img src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/466071756_9377799142247823_5525454832564433955_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEVWqEwm4sDq-T8JShwlULAHQnOx_CDxbAdCc7H8IPFsLRbJWoYoNUYHF1DlnxTUweqPMUK3-iaP6KO_sWadK-5&_nc_ohc=xuvZ6nB1yPIQ7kNvgE8Djru&_nc_zt=23&_nc_ht=scontent.fbkk5-7.fna&_nc_gid=AH2POlfR1Cy7oiQd4ba3c3S&oh=00_AYCphWp8aZZGE1oA68wIBR5AxcwF3bjbq0G3KMv45GEg4Q&oe=674C5768"
-                                        alt="Profile Picture" class="rounded-full w-48 h-48 mx-auto mb-4">
-                                    <h1 class="text-2xl lg:text-xl font-bold text-emerald-800 dark:text-white mb-2">นาย
+                                        alt="Profile Picture" class="rounded-xl w-60 h-60 mx-auto mb-10">
+                                    <h1
+                                        class="text-sm md:text-md lg:text-sm xl:text-xl font-bold text-emerald-800 dark:text-white mb-3">
+                                        นาย
                                         รัชต์ภาคย์
                                         หันจางสิทธิ์</h1>
-                                    <p class="text-gray-600 dark:text-gray-300">รหัสตัวแทน: 1156</p>
-                                    <p class="text-gray-600 dark:text-gray-300">ตำแหน่ง: Director</p>
+                                    <p
+                                        class="text-gray-600 dark:text-gray-300 text-sm md:text-md lg:text-sm xl:text-xl mb-2">
+                                        <span class="font-bold">รหัสตัวแทน:</span> 1156
+                                    </p>
+                                    <p
+                                        class="text-gray-600 dark:text-gray-300 text-sm md:text-md lg:text-sm xl:text-xl">
+                                        <span class="font-bold">ตำแหน่ง:</span> Director
+                                    </p>
                                 </div>
                                 <div class="md:w-2/3 md:pl-8">
-                                    <h2 class="text-xl font-semibold text-emerald-800 dark:text-white mb-4">
+                                    <h2
+                                        class="text-sm md:text-md lg:text-sm xl:text-xl font-semibold text-emerald-800 dark:text-white mb-4">
                                         เกี่ยวกับตัวแทน
                                     </h2>
                                     <p class="text-gray-700 dark:text-gray-300 mb-6">
                                         ประสบการณ์ด้านการขายอสังหาริมทรัพย์โกดังสำเร็จรูป และบ้านสำเร็จรูปมา 3 ปี
                                         และขายโกดังทั้ง 50 โกดังทั้วประเทศ
                                     </p>
-                                    <h2 class="text-xl font-semibold text-emerald-800 dark:text-white mb-4">
+                                    <h2
+                                        class="text-sm md:text-md lg:text-sm xl:text-xl font-semibold text-emerald-800 dark:text-white mb-4">
                                         ประสบการณ์ด้านการขาย</h2>
                                     <div class="flex flex-wrap gap-2 mb-6">
                                         <span
@@ -755,12 +834,14 @@
                                         <span
                                             class="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">เซ้งสิทธิ์</span>
                                     </div>
-                                    <h2 class="text-xl font-semibold text-emerald-800 dark:text-white mb-4">
+                                    <h2
+                                        class="text-sm md:text-md lg:text-sm xl:text-xl font-semibold text-emerald-800 dark:text-white mb-4">
                                         ข้อมูลติดต่อ</h2>
                                     <ul class="space-y-2 text-gray-700 dark:text-gray-300">
                                         <li class="flex items-center">
                                             <div class="flex items-center">
-                                                <i class="ri-mail-fill text-green-700  text-2xl"></i>
+                                                <i
+                                                    class="ri-mail-fill text-slate-600  text-sm md:text-md lg:text-sm xl:text-xl"></i>
                                             </div>
                                             <span class="ml-5">
                                                 it@me-suk.com
@@ -768,7 +849,8 @@
                                         </li>
                                         <li class="flex items-center">
                                             <div class="flex items-center">
-                                                <i class="ri-smartphone-fill text-green-700 text-2xl"></i>
+                                                <i
+                                                    class="ri-smartphone-fill text-rose-500 text-sm md:text-md lg:text-sm xl:text-xl"></i>
                                             </div>
                                             <span class="ml-5">
                                                 0917964936
@@ -776,7 +858,8 @@
                                         </li>
                                         <li class="flex items-center">
                                             <div class="flex items-center">
-                                                <i class="ri-facebook-box-fill text-green-700 text-2xl"></i>
+                                                <i
+                                                    class="ri-facebook-box-fill text-blue-700 text-sm md:text-md lg:text-sm xl:text-xl"></i>
                                             </div>
                                             <span class="ml-5">
                                                 facebook.com/tonandton
@@ -784,7 +867,8 @@
                                         </li>
                                         <li class="flex items-center">
                                             <div class="flex items-center">
-                                                <i class="ri-line-fill text-green-700 text-2xl"></i>
+                                                <i
+                                                    class="ri-line-fill text-green-400 text-sm md:text-md lg:text-sm xl:text-xl"></i>
                                             </div>
                                             <span class="ml-5">
                                                 tonandton1993
@@ -868,7 +952,6 @@
         id="scroll-up">
         <div class="ri-arrow-up-line"></div>
     </a>
-
 
     {{-- JS --}}
     @vite('resources/js/main.js')
