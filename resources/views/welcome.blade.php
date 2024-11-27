@@ -703,21 +703,34 @@
             <div class="container">
                 <div class="mb-10">
                     <div class="container w-full grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-                        <div
-                            class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-8 transition-all duration-300 animate-fade-in">
-                            <div class="flex flex-col md:flex-row">
+                        {{-- <div
+                            class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-1 transition-all duration-300 animate-fade-in"> --}}
 
-                            </div>
+                        {{-- Book PDF --}}
+                        <div class="flex flex-col md:flex-row">
+                            {{-- <div style="position:relative;padding-top:0;width:900px;height:500px;">
+                                <iframe class="rounded-md"
+                                    style="position:absolute;border:none;width:100%;height:100%;left:0;top:0;"
+                                    src="https://online.fliphtml5.com/mrquf/ydxa/" seamless="seamless" scrolling="no"
+                                    frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+                            </div> --}}
+                            <a href="https://online.flippingbook.com/view/203782344/" class="fbo-embed"
+                                data-fbo-id="b4e20850d1" data-fbo-ratio="3:2" data-fbo-lightbox="yes"
+                                data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1"
+                                style="max-width: 100%">Presentation</a>
+                            <script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=203782344"></script>
                         </div>
+                        {{-- </div> --}}
                         <div
                             class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-8 transition-all duration-300 animate-fade-in">
                             <div class="flex flex-col md:flex-row">
-                                <div class="md:w-1/3 text-center mb-8 md:mb-0">
-                                    <img src="https://lh3.googleusercontent.com/a/ACg8ocIOccPi58OUdfxHBBjK978fVc-zSuwE8vaEhdM_dp8siY1VWcPQ=s288-c-no"
+                                <div class="md:w-1/3 text-center mb-15 md:mb-0">
+                                    <img src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/466071756_9377799142247823_5525454832564433955_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEVWqEwm4sDq-T8JShwlULAHQnOx_CDxbAdCc7H8IPFsLRbJWoYoNUYHF1DlnxTUweqPMUK3-iaP6KO_sWadK-5&_nc_ohc=xuvZ6nB1yPIQ7kNvgE8Djru&_nc_zt=23&_nc_ht=scontent.fbkk5-7.fna&_nc_gid=AH2POlfR1Cy7oiQd4ba3c3S&oh=00_AYCphWp8aZZGE1oA68wIBR5AxcwF3bjbq0G3KMv45GEg4Q&oe=674C5768"
                                         alt="Profile Picture" class="rounded-full w-48 h-48 mx-auto mb-4">
                                     <h1 class="text-2xl lg:text-xl font-bold text-emerald-800 dark:text-white mb-2">นาย
                                         รัชต์ภาคย์
                                         หันจางสิทธิ์</h1>
+                                    <p class="text-gray-600 dark:text-gray-300">รหัสตัวแทน: 1156</p>
                                     <p class="text-gray-600 dark:text-gray-300">ตำแหน่ง: Director</p>
                                 </div>
                                 <div class="md:w-2/3 md:pl-8">
@@ -763,10 +776,18 @@
                                         </li>
                                         <li class="flex items-center">
                                             <div class="flex items-center">
-                                                <i class="ri-map-pin-2-fill text-green-700 text-2xl"></i>
+                                                <i class="ri-facebook-box-fill text-green-700 text-2xl"></i>
                                             </div>
                                             <span class="ml-5">
-                                                บริษัท มีสุข คอร์ปอเรชั่น (2006) จำกัด
+                                                facebook.com/tonandton
+                                            </span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <div class="flex items-center">
+                                                <i class="ri-line-fill text-green-700 text-2xl"></i>
+                                            </div>
+                                            <span class="ml-5">
+                                                tonandton1993
                                             </span>
                                         </li>
                                     </ul>
@@ -855,6 +876,7 @@
 
     {{-- Swiper JS --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>
