@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Mesuk | Property</title>
 
     {{-- @vite('resources/css/app.css') --}}
     @vite('resources/css/app.css')
@@ -202,7 +202,8 @@
                                     class="rounded-lg">
 
                                 <div class="relative px-4 -mt-24">
-                                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                                    <div
+                                        class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-300">
 
                                         <h3 class="mb-2 text-slate-700">HW - Happy Warehouse</h3>
                                         <p class="text-slate-600 mb-5">โครงสร้างโกดังสำเร็จรูปแบบถอดประกอบหน้างาน
@@ -210,7 +211,7 @@
                                             กลลาง ใหญ่</p>
                                         <a href=""
                                             class="items-center rounded-md bg-emerald-400 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-400 focus:outline-none focus:ring-4">อ่านต่อ
-                                            -></a>
+                                            <i class="ri-arrow-right-line"></i></a>
                                     </div>
                                 </div>
                                 <div class="mt-4">
@@ -224,8 +225,9 @@
                                 <img src="https://img5.pic.in.th/file/secure-sv1/303d64a632431f9a615.png"
                                     alt="9dc2b4c3 4c7e 4995 8fbf dee36e9c1e72" border="0" class="rounded-lg">
 
-                                <div class="relative px-4 -mt-24">
-                                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <div class="relative px-4 -mt-24 ">
+                                    <div
+                                        class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-300">
                                         {{-- <span
                                                     class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">HW</span> --}}
                                         <h3 class="mb-2 text-slate-700">HR - Happy Realestate</h3>
@@ -234,7 +236,7 @@
                                             ปริมณฑล และจังหวัดใกล้เคียง โกดังเหมาะสำหรับเอาไว้เก็บสินค้าต่างๆ</p>
                                         <a href=""
                                             class="items-center rounded-md bg-emerald-400 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-400 focus:outline-none focus:ring-4">อ่านต่อ
-                                            -></a>
+                                            <i class="ri-arrow-right-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +249,8 @@
                                     alt="" class="rounded-lg invisible sm:visible">
 
                                 <div class="relative px-4 -mt-24">
-                                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                                    <div
+                                        class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-300">
                                         {{-- <span
                                                     class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full uppercase font-semibold tracking-wide">HW</span> --}}
                                         <h3 class="mb-2 text-slate-700">HP - Happy Precast</h3>
@@ -255,7 +258,7 @@
                                             เสาตอม่อ คานคอดิน งานพื้น งานรั้ว</p>
                                         <a href=""
                                             class="items-center rounded-md bg-emerald-400 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-green-400 focus:outline-none focus:ring-4">อ่านต่อ
-                                            -></a>
+                                            <i class="ri-arrow-right-line"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -764,6 +767,7 @@
 
         </section>
 
+        {{-- Profile | Company Profile --}}
         <section class="profile -mt-50 -mb-35">
             <div class="flex flex-col items-center gap-3 text-center mb-10">
                 {{-- <h2 class="title"></h2> --}}
@@ -771,11 +775,11 @@
 
             <div class="container">
                 <div class="mb-10">
-                    <div class="container w-full grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+                    <div class="container w-full grid grid-cols-1 gap-3 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2">
                         {{-- <div
                             class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-1 transition-all duration-300 animate-fade-in"> --}}
 
-                        {{-- Book PDF --}}
+                        {{-- Company Profile Book PDF --}}
                         <div class="flex flex-col md:flex-row">
                             {{-- <div style="position:relative;padding-top:0;width:900px;height:500px;">
                                 <iframe class="rounded-md"
@@ -790,12 +794,15 @@
                             <script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=203782344"></script>
                         </div>
                         {{-- </div> --}}
+
+                        {{-- Agant Profile --}}
                         <div
                             class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-8 transition-all duration-300 animate-fade-in">
                             <div class="flex flex-col md:flex-row">
                                 <div class="md:w-1/3 text-center mb-8 md:mb-0 ">
                                     <img src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/466071756_9377799142247823_5525454832564433955_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEVWqEwm4sDq-T8JShwlULAHQnOx_CDxbAdCc7H8IPFsLRbJWoYoNUYHF1DlnxTUweqPMUK3-iaP6KO_sWadK-5&_nc_ohc=xuvZ6nB1yPIQ7kNvgE8Djru&_nc_zt=23&_nc_ht=scontent.fbkk5-7.fna&_nc_gid=AH2POlfR1Cy7oiQd4ba3c3S&oh=00_AYCphWp8aZZGE1oA68wIBR5AxcwF3bjbq0G3KMv45GEg4Q&oe=674C5768"
-                                        alt="Profile Picture" class="rounded-xl w-60 h-60 mx-auto mb-10">
+                                        alt="Profile Picture"
+                                        class="rounded-xl w-60 h-60 mx-auto md:h-40 lg:h-60  mb-10">
                                     <h1
                                         class="text-sm md:text-md lg:text-sm xl:text-xl font-bold text-emerald-800 dark:text-white mb-3">
                                         นาย
@@ -884,6 +891,8 @@
         </section>
 
     </main>
+
+
     {{-- Footer --}}
     <footer class="bg-green-100 text-green-900 pt-20 pb-10 md:pt-28 relative mt-20">
 
@@ -905,7 +914,7 @@
 
         {{-- Contact --}}
         <div
-            class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 text-center md:text-start">
+            class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 text-center md:text-start">
             <div>
                 <div class="text-7xl text-green-700 text-center inline-block">
                     <i class="ri-leaf-fill"> </i>
@@ -919,15 +928,15 @@
             <div>
                 <p class="mb-5 font-bold text-xl">สินค้าบริการ</p>
                 <div class="flex flex-col gap-1">
-                    <a href="">item1</a>
-                    <a href="">item2</a>
-                    <a href="">item3</a>
-                    <a href="">item4</a>
-                    <a href="">item5</a>
+                    <a href="">โกดังสำเร็จรูป</a>
+                    <a href="">โกดังให้เช่า</a>
+                    <a href="">บ้านสำเร็จรูป</a>
+                    <a href="">อสังหาริมทรัพย์เพื่อดารลงทุน</a>
+                    <a href="">วัสดุ-อุปกรณ์ก่อสร้าง</a>
                 </div>
             </div>
 
-            <div>
+            <div class="">
                 <p class="mb-5 font-bold text-xl">ติดต่อ</p>
                 <div class="flex flex-col gap-1">
                     <a href="">024059717</a>
@@ -946,12 +955,13 @@
         </div>
     </footer>
 
-
+    {{-- Scroll up --}}
     <a href="#"
         class="fixed right-4 -bottom-1/2 bg-green-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg text-white z-50 hover:-translate-y-1 duration-300"
         id="scroll-up">
         <div class="ri-arrow-up-line"></div>
     </a>
+
 
     {{-- JS --}}
     @vite('resources/js/main.js')
