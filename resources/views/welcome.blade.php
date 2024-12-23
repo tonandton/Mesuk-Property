@@ -26,23 +26,83 @@
     {{-- Header --}}
     <header id="navbar" class="fixed w-full top-0 left-0 z-50 backdrop-blur-sm ">
         <nav class="container flex items-center justify-between h-16 sm:h-20">
-            <div class="sm:text-2xl">HAPPY | MESUK</div>
-
+            {{-- <div class="sm:text-2xl">HAPPY | MESUK</div> --}}
+            <div class="w-28 md:w-60 md:mt-7 "><img src="{{ url('/img/logomesuk-2.png') }}" alt="mesuk"
+                    class="w-64">
+            </div>
             <div id="nav-menu"
                 class="absolute top-0 left-[-100%] min-h-[80vh] w-full flex items-center bg-slate-100/90 justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
                 <ul class="flex flex-col items-center gap-8 lg:flex-row ">
                     <li>
                         <a href="#home" class="nav-link active">หน้าแรก</a>
                     </li>
+
                     <li>
                         <a href="#hightlight" class="nav-link">หมวดแนะนำ</a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a href="#popular" class="nav-link">รายการสินค้า</a>
+                    </li> --}}
+                    <li>
+                        <div class="group">
+                            <button type="button" class="inline-flex justify-center item-center w-full px-4 py-2"><a
+                                    href="#popular" class="nav-link">รายการสินค้า</a>
+                                <svg class="w-4 h-4 ml-2 -mr-1 mt-2" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+                                </svg>
+                            </button>
+
+                            <div
+                                class="absolute w-60 origin-top-left bg-white devide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
+                                <div class="py-1">
+                                    <div class="block px-4 py-2 text-sm text-gray 700 hover:bg-green-100">
+                                        วัสดุ-อุปกรณ์ก่อสร้าง</div>
+                                    <div class="block px-4 py-2 text-sm text-gray 700 hover:bg-green-100">
+                                        ชิ้นส่วนคอนกรีตสำเร็จรูป</div>
+                                    <div class="block px-4 py-2 text-sm text-gray 700 hover:bg-green-100">โกดังสำเร็จรูป
+                                    </div>
+                                    <div class="block px-4 py-2 text-sm text-gray 700 hover:bg-green-100">
+                                        โกดังสำเร็จรูปให้เช่า</div>
+                                    <div class="block px-4 py-2 text-sm text-gray 700 hover:bg-green-100">
+                                        บ้านสำเร็จรูป
+                                    </div>
+                                    <div class="block px-4 py-2 text-sm text-gray 700 hover:bg-green-100">
+                                        อสังหาริมทรัพย์เพื่อการลงทุน
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <a href="/" class="nav-link">เข้าสู่ระบบ</a>
                     </li>
+                    {{-- <li>
+                        <div class="group">
+                            <button type="button"
+                                class="inline-flex justify-center items-center w-full px-4 py-2 text-sm font-medium text-white bg-gray-800 hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+                                Open Menu
+                                <!-- Dropdown arrow -->
+                                <svg class="w-4 h-4 ml-2 -mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 12l-5-5h10l-5 5z" />
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown menu -->
+                            <div
+                                class="absolute w-40 mt-1 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
+                                <div class="py-1">
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Option 1</a>
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Option 2</a>
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Option 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li> --}}
                 </ul>
             </div>
 
@@ -73,7 +133,7 @@
                             </span>
 
                         </h1>
-                        <p class="text-slate-900 text-3xl">
+                        <p class="text-slate-900 text-md md:text-3xl">
                             รับสร้างโรงงาน โกดังระบบสำเร็จรูปอันดับหนึ่งของเมืองไทย <br />
                             ให้บริการครบวงจรพร้อมการควบคุมมาตราฐานการก่อสร้าง<br />ด้วยวิศวกรมืออาชีพ
                         </p>
@@ -116,7 +176,7 @@
 
             <div class="py-20 mt-16 -mb-20">
                 <div
-                    class="container w-full grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 -mt-40 ">
+                    class="container w-full grid grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 -mt-40 ">
                     {{-- card 1 --}}
                     <div
                         class="border cursor-pointer rounded-sm hover:shadow-2xl hover:-translate-y-3 duration-300 space-y-5">
@@ -174,8 +234,8 @@
                             {{-- <img class="rounded-md"
                             src="https://www.happyfranchise.co.th/store/resources/img/category/h1n_catess_20241006171516.jpeg"
                             alt=""> --}}
-                            <img src="https://img2.pic.in.th/pic/299e5f3cb48d86d2f50.png" alt="299" border="0"
-                                class="rounded-md w-full">
+                            <img src="https://img2.pic.in.th/pic/299e5f3cb48d86d2f50.png" alt="299"
+                                border="0" class="rounded-md w-full">
                         </div>
 
                     </div>
@@ -780,18 +840,18 @@
                             class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-1 transition-all duration-300 animate-fade-in"> --}}
 
                         {{-- Company Profile Book PDF --}}
-                        <div class="flex flex-col md:flex-row">
+                        <div
+                            class=" bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full flex flex-col md:flex-row">
                             {{-- <div style="position:relative;padding-top:0;width:900px;height:500px;">
                                 <iframe class="rounded-md"
                                     style="position:absolute;border:none;width:100%;height:100%;left:0;top:0;"
                                     src="https://online.fliphtml5.com/mrquf/ydxa/" seamless="seamless" scrolling="no"
                                     frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
                             </div> --}}
-                            <a href="https://online.flippingbook.com/view/203782344/" class="fbo-embed"
-                                data-fbo-id="b4e20850d1" data-fbo-ratio="3:2" data-fbo-lightbox="yes"
+                            <a href="https://online.flippingbook.com/view/35549929/" class="fbo-embed"
+                                data-fbo-id="deaf601d39" data-fbo-ratio="3:2" data-fbo-lightbox="yes"
                                 data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1"
                                 style="max-width: 100%">Presentation</a>
-                            <script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=203782344"></script>
                         </div>
                         {{-- </div> --}}
 
@@ -800,7 +860,7 @@
                             class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-8 transition-all duration-300 animate-fade-in">
                             <div class="flex flex-col md:flex-row">
                                 <div class="md:w-1/3 text-center mb-8 md:mb-0 ">
-                                    <img src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/466071756_9377799142247823_5525454832564433955_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEVWqEwm4sDq-T8JShwlULAHQnOx_CDxbAdCc7H8IPFsLRbJWoYoNUYHF1DlnxTUweqPMUK3-iaP6KO_sWadK-5&_nc_ohc=xuvZ6nB1yPIQ7kNvgE8Djru&_nc_zt=23&_nc_ht=scontent.fbkk5-7.fna&_nc_gid=AH2POlfR1Cy7oiQd4ba3c3S&oh=00_AYCphWp8aZZGE1oA68wIBR5AxcwF3bjbq0G3KMv45GEg4Q&oe=674C5768"
+                                    <img src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/466071756_9377799142247823_5525454832564433955_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEVWqEwm4sDq-T8JShwlULAHQnOx_CDxbAdCc7H8IPFsLRbJWoYoNUYHF1DlnxTUweqPMUK3-iaP6KO_sWadK-5&_nc_ohc=0TxiK2zFticQ7kNvgGnGqjN&_nc_oc=Adh_em-Ke-MfmruY8FiqIskaLjqgcC3gXXCxHvh5OC_wkYLQNyyl5TJvp9VeeeCGZdU&_nc_zt=23&_nc_ht=scontent.fbkk5-7.fna&_nc_gid=AQ_sSItOmTwVrYqNIlc-AHC&oh=00_AYCF7QVSpLdWblUaRzKqaVCu-5kLjwDpH4BSxH6rGI-t3g&oe=676E9E68"
                                         alt="Profile Picture"
                                         class="rounded-xl w-60 h-60 mx-auto md:h-40 lg:h-60  mb-10">
                                     <h1
@@ -969,6 +1029,9 @@
 
     {{-- Swiper JS --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    {{-- Profile Company flippingbook --}}
+    <script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=35549929"></script>
 
 </body>
 
